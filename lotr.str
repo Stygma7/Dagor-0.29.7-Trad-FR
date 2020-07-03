@@ -375,7 +375,7 @@ END
 CONTROLBAR:ToolTipSpecialAbilityWindreiterLegendenbezwinger_forFornost
 "Requiert : niveau 4\nPendant 30 secondes, les Coursiers du Vent gagnent +40% dégâts, ce bonus monte à +60% contre les héros et les monstres.\n\nInutilisable pendant la capacité 'Passagers du Vent'.\n\nClic gauche pour activer"
 END
-
+ 
 CreateAHero:SubClassName_Elbenfürst
 "Seigneur Elfe"
 END
