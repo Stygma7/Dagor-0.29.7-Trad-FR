@@ -106,11 +106,11 @@ END
 
 
 //Units
-CONTROLBAR:SpecialAbilityVerteidigerD?Eterwalds
+CONTROLBAR:SpecialAbilityVerteidigerDEterwalds
 "Defenders of Mirkwood"
 END
 
-CONTROLBAR:ToolTipSpecialAbilityVerteidigerD?Eterwalds
+CONTROLBAR:ToolTipSpecialAbilityVerteidigerDEterwalds
 "The Palace Guard are the elite defenders of Mirkwood, and can turn enemy momentum against them. \n Any time a Palace Guard is trampled, all other nearby Palace Guard gain +50% armor, +50% damage and slow down any additional enemy trampling 50% faster for 30 seconds"
 END
 
@@ -370,10 +370,6 @@ END
 
 OBJECT:DwarvenNori
 "Nori"
-END
-
-CONTROLBAR:ToolTipSpecialAbilityWindreiterLegendenbezwinger_forFornost
-"Requiert : niveau 4\nPendant 30 secondes, les Coursiers du Vent gagnent +40% dégâts, ce bonus monte à +60% contre les héros et les monstres.\n\nInutilisable pendant la capacité 'Passagers du Vent'.\n\nClic gauche pour activer"
 END
  
 CreateAHero:SubClassName_Elbenfürst
@@ -1606,10 +1602,6 @@ END
 
 CONTROLBAR:TooltipThorinKönigderZwergeOneRing
 "Thorin's greed for gold becomes insatiable making him claim all gold\nIn a great radius Thorin gains 5 times the looting value for slain enemies et an armour with 5 times the defense, however allied economy-buildings produce -75% less resources\n\nCapacité passive"
-END
-
-CONTROLBAR:LW_Hero_Nori
-"Nori"
 END
 
 CONTROLBAR:CloudBreakImladris
@@ -80305,7 +80297,7 @@ CONTROLBAR:SpecialAbilityFortressMachtHK
 END
 
 CONTROLBAR:TooltipSpecialAbilityFortressMachtHK
-"The Power of the Witch-king is transferred to a selected hero \n Zaphragor: For a short, Zaphragor periodically explodes with magical devastation\n Maeglin: Momentarily heals allies heroes around him \n Mornamarth: Every Man of Carn-D?m on the battlefield becomes one of the Elect \n Gulzár: Temporarily regenerates Acolytes with great speed \n D?rmarth: For a short time, his seals are strengthened \n Rogash: Permanently receives an increase in his armor and speed \n Karsh: Becomes permanently bound to the Iron Crown \n Hwaldar: Receives a massive increase to stats \n Beastmaster: Can merge with his beast into a powerful Werewolf \n Helegwen: Her arrows pierce through enemies \n Left-click on a Hero of Angmar"
+"The Power of the Witch-king is transferred to a selected hero \n Zaphragor: For a short, Zaphragor periodically explodes with magical devastation\n Maeglin: Momentarily heals allies heroes around him \n Mornamarth: Every Man of Carn-Dûm on the battlefield becomes one of the Elect \n Gulzár: Temporarily regenerates Acolytes with great speed \n Dûrmarth: For a short time, his seals are strengthened \n Rogash: Permanently receives an increase in his armor and speed \n Karsh: Becomes permanently bound to the Iron Crown \n Hwaldar: Receives a massive increase to stats \n Beastmaster: Can merge with his beast into a powerful Werewolf \n Helegwen: Her arrows pierce through enemies \n Left-click on a Hero of Angmar"
 END
 
 CONTROLBAR:PurchaseUpgradeAngmarFortressBanners
@@ -80526,7 +80518,7 @@ OBJECT:AngmarBarracks
 END
 
 OBJECT:AngmarBarracksDescription
-"Military Structure \n Train Black Númenoreans \n Recruitable Heroes: Morgramir, Helegwen and D?rmarth"
+"Military Structure \n Train Black Númenoreans \n Recruitable Heroes: Morgramir, Helegwen and Dûrmarth"
 END
 
 CONTROLBAR:ConstructAngmarBarracks
@@ -80534,11 +80526,11 @@ CONTROLBAR:ConstructAngmarBarracks
 END
 
 CONTROLBAR:ToolTipConstructAngmarBarracks
-"Military Structure \n Requires: "Fallen Dúnedain" \n Trains Black Númenoreans \n Recruitable Heroes: Morgramir, Helegwen and D?rmarth \n You can only build 4 Halls of the King's Men in the same game"
+"Military Structure \n Requires: "Fallen Dúnedain" \n Trains Black Númenoreans \n Recruitable Heroes: Morgramir, Helegwen and Dûrmarth \n You can only build 4 Halls of the King's Men in the same game"
 END
 
 CONTROLBAR:ToolTipConstructAngmarBarracks_forCarnDum
-"Military Structure \n Trains Black Númenoreans \n Recruitable Heros: Morgramir, Helegwen and D?rmarth \n You can only build 4 Halls of the King's Men in the same game"
+"Military Structure \n Trains Black Númenoreans \n Recruitable Heros: Morgramir, Helegwen and Dûrmarth \n You can only build 4 Halls of the King's Men in the same game"
 END
 
 CONTROLBAR:PurchaseUpgradeGemacherderSchwarzenGarde
@@ -80546,7 +80538,7 @@ CONTROLBAR:PurchaseUpgradeGemacherderSchwarzenGarde
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeGemacherderSchwarzenGarde
-"Allows the training of Black Númenórean Guard and Knight Guard \n Allows the recruitment of D?rmarth"
+"Allows the training of Black Númenórean Guard and Knight Guard \n Allows the recruitment of Dûrmarth"
 END
 
 TOOLTIP:LackSchwarzeGarde
@@ -82595,7 +82587,7 @@ CONTROLBAR:LW_ToolTip_MouthOfSauron
 END
 
 CONTROLBAR:LW_Hero_Nazgul
-"Nazg?l"
+"Nazgûl"
 END
 
 CONTROLBAR:LW_ToolTipBuild_Nazgul
@@ -86897,6 +86889,18 @@ END
 
 OBJECT:WildmenBuildingHouse2
 "Maison des Hommes sauvages 2"
+END
+
+OBJECT:WildmenBuildingHouse3
+"Maison des Hommes sauvages 3"
+END
+
+OBJECT:WildmenBuildingHouse4
+"Maison des Hommes sauvages 4"
+END
+
+OBJECT:WildmenBuildingHouse5
+"Maison des Hommes sauvages 5"
 END
 
 OBJECT:ladder
@@ -105443,479 +105447,479 @@ CONTROLBAR:ToolTipAzogBrigandage
 END
 
 SUBTITLE:BABME_01
-"The trail of blood et suffering is over -- Angmar is defeated."
+"*The trail of blood and suffering is over -- Angmar is defeated."
 END
 
 SUBTITLE:BABME_02
-"Like so many cities d'Arnor, it lies in ruin, its hopes for a final conquest of the West, gone. Middle Earth rejoiced…¦"
+"*Like so many cities of Arnor, it lies in ruin, its hopes for a final conquest of the West, gone. Middle Earth rejoiced…"
 END
 
 SUBTITLE:BABME_03
-"In his final stand, Le Roi-Sorcier sat upon his black horse before us"
+"*In his final stand, the Witch-king sat upon his black horse before us."
 END
 
 SUBTITLE:BABME_04
-"As we rode forward, he realized that all hope was lost."
+"*As we rode forward, he realized that all hope was lost."
 END
 
 SUBTITLE:BABME_05
-"His terrifying scream of rage sent the chill of winter down our spines, as he turned et fled into the shadows"
+"*His terrifying scream of rage sent the chill of winter down our spines, as he turned and fled into the shadows."
 END
 
 SUBTITLE:BABME_06
-"Eärnur struck out to chase him down, But I then realized his power."
+"*Earnur struck out to chase him down, But I then realized his power."
 END
 
 SUBTITLE:BABME_07
-"We thought him but a powerful Black Númenorean, but he is Nazgûl, First of the Nine, most fell servant of le Seigneur des TénèbresSauron."
+"*We thought him but a powerful Black Númenorean, but he is Nazgûl, First of the 9, most fell servant of the Dark Lord Sauron."
 END
 
 SUBTITLE:BABME_08
-"I put up my hand, et called out to Eärnur: 'Do not pursue him! He will not return to these lands'."
+"*I put up my hand, and called out to Earnur: 'Do not pursue him! He will not return to these lands'."
 END
 
 SUBTITLE:BABME_09
-"'Far off yet is his doom, et not by the het of man shall he fall'."
+"*'Far off yet is his doom, and not by the hand of man shall he fall’."
 END
 
 SUBTITLE:BABMO_01
-"After Le Roi-Sorcier's bloody, final triumph over Arnor, the kingdom du Gondor can look away no more,"
+"*After the Witch-king’s bloody, final triumph over Arnor, the kingdom of Gondor can look away no more,"
 END
 
 SUBTITLE:BABMO_02
-"Lest the Iron Crown dominate all the lands of the West. Elves et Men come together to drive Evil from the north forever."
+"*lest the Iron Crown dominate all the lands of the West. Elves and Men come together to drive Evil from the north forever."
 END
 
 SUBTITLE:BABMO_03
-"Eärnur du Gondor would lead the Men. The Elves call for Glorfindel, Elf-Seigneur de Fondcombe et Gondolin, to lead them."
+"*Earnur of Gondor would lead the Men. The Elves call for Glorfindel, Elf-lord of Rivendell and Gondolin, to lead them."
 END
 
 SUBTITLE:BABMO_04
-"et so it is, at the will of my people, that I change from storyteller to blade-bearer once more."
+"*And so it is, at the will of my people, that I change from storyteller to blade-bearer once more."
 END
 
 SUBTITLE:BABMO_05
-"I ride, Elrond at my side, under Eärnur's banner. Elves et Men together will drive evil from the North forever."
+"*I ride, Elrond at my side, under Earnur’s banner. Elves and Men together will drive evil from the North forever."
 END
 
 SUBTITLE:BABMO_06
-"We will not merely push Le Roi-Sorcier back to his lair of Carn Dûm as we had foolishly done before."
+"*We will not merely push the Witch-king back to his lair of Carn Dûm as we had foolishly done before."
 END
 
 SUBTITLE:BABMO_07
-"We intend the total destruction d'Angmar; et this time, it will be so."
+"*We intend the total destruction of Angmar; and this time, it will be so."
 END
 
 SUBTITLE:BACO_01
-"Middle-earth enjoyed a thouset years of peace after the Ring was lost et the death of Isildur"
+"*Middle-earth enjoyed a thousand years of peace after the Ring was lost and the death of Isildur"
 END
 
 SUBTITLE:BACO_010
-"…¦et Arthedain, the most powerful of the Northern realms,"
+"*…and Arthedain, the most powerful of the Northern realms,"
 END
 
 SUBTITLE:BACO_011
-"still ruled by Isildur's heirs from the capital of Fornost."
+"*still ruled by Isildur’s heirs from the capital of Fornost."
 END
 
 SUBTITLE:BACO_012
-"It was during the reign of the eighth King of Arthedain that evil began to multiply in Angmar,"
+"*It was during the reign of the eighth King of Arthedain that evil began to multiply in Angmar,"
 END
 
 SUBTITLE:BACO_013
-"A twisted, frozen let that lay North beyond the Ettenmoors, et home of the Númenóréens Noirs"
+"*a twisted, frozen land that lay North beyond the Ettenmoors, and home of the Black Númenoreans."
 END
 
 SUBTITLE:BACO_014
-"Among them a Sorcier of great power arose, known only as Le Roi-Sorcier..."
+"*Among them a sorcerer of great power arose, known only as the Witch-king..."
 END
 
 SUBTITLE:BACO_015
-"He has taken up his Iron Crown for a single purpose:"
+"*He has taken up his Iron Crown for a single purpose:"
 END
 
 SUBTITLE:BACO_016
-"to destroy the Dúnedain et their kingdom d'Arnor …¦"
+"*to destroy the Dúnedain and their kingdom of Arnor …"
 END
 
 SUBTITLE:BACO_02
-"but Sauron was not dead, only cast to the shadows"
+"*but Sauron was not dead, only cast to the shadows."
 END
 
 SUBTITLE:BACO_03
-" In time, evil once more began to move…¦"
+"* In time, evil once more began to move…"
 END
 
 SUBTITLE:BACO_04
-"Arnor: The North Kingdom of Men, ruled by the heirs of Isildur."
+"*Arnor: The North Kingdom of Men, ruled by the heirs of Isildur."
 END
 
 SUBTITLE:BACO_05
-"This let of passion et promise is waylaid by men's inability to set aside petty differences;"
+"*This land of passion and promise is waylaid by men’s inability to set aside petty differences;"
 END
 
 SUBTITLE:BACO_06
-"et so it was that civil strife weakened the Dúnedain et broke the let into three realms:"
+"*and so it was that civil strife weakened the Dúnedain and broke the land into 3 realms:"
 END
 
 SUBTITLE:BACO_07
-"Rhudaur, the smallest et weakest of the Dúnedain kingships…¦"
+"*Rhudaur, the smallest and weakest of the Dúnedain kingships…"
 END
 
 SUBTITLE:BACO_08
-"Cardolan, guardian of the ancient Barrow Downs,"
+"*Cardolan, guardian of the ancient Barrow Downs,"
 END
 
 SUBTITLE:BACO_09
-"where the forefathers of the Dúnedain lay entombed …¦"
+"*where the forefathers of the Dúnedain lay entombed …"
 END
 
 SUBTITLE:BAM1E_01
-"Now all d'Angmar is united under the Iron Crown. Legions of Orques fight under the commet of the Maîtres des esclaves d'Angmar."
+"*Now all of Angmar is united under the Iron Crown. Legions of orcs fight under the command of the Thrall Masters of Angmar."
 END
 
 SUBTITLE:BAM1E_02
-"The great fortress at Carn Dum continues to rise, it will make an ideal sanctum for Le Roi-Sorcier to work his fell sorcery."
+"*The great fortress at Carn Dum continues to rise, it will make an ideal sanctum for the Witch-king to work his fell sorcery."
 END
 
 SUBTITLE:BAM1E_03
-"The hammer is forged at last, ready to smite the heirs of Elendil et lay their kingdoms low."
+"*The hammer is forged at last, ready to smite the heirs of Elendil and lay their kingdoms low."
 END
 
 SUBTITLE:BAM1O_01
-"Before Arnor can be invaded, Le Roi-Sorcier needs a symbol to unite Angmar's proud et willful denizens"
+"Before his campaign against Arnor, the Witch-king needed a symbol to unite the proud and stubborn people of Angmar."
 END
 
 SUBTITLE:BAM1O_02
-"Legends say that here in ages past loomed a great fortress of the ancient darkness, "
+"According to legend, a mighty fortress towered here in bygone times"
 END
 
 SUBTITLE:BAM1O_03
-"its ruins dark et silent in the mountains"
+"the dark sky."
 END
 
 SUBTITLE:BAM1O_04
-"Rebuilding this bastion will secure the Iron Crown's dominion over the Númenóréens Noirs et the northern Troll tribes..."
+"As soon as this bastion shines in new splendor, the Black Númenor and the northern troll tribes submit to the power of the Iron Crown ..."
 END
 
 SUBTITLE:BAM30_03
-"They are led by Hwaldar, a Hillchief in secret league with Angmar."
+"*They are led by Hwaldar, a Hillchief in secret league with Angmar."
 END
 
 SUBTITLE:BAM30_04
-"Moving to crush this resistance, Argeleb has Hwaldar seized, et moves into Rhudaur."
+"*Moving to crush this resistance, Argeleb has Hwaldar seized, and moves into Rhudaur."
 END
 
 SUBTITLE:BAM30_07
-"et he will seize it with both hands"
+"*and he will seize it with both hands."
 END
 
 SUBTITLE:BAM3E_01
-"King Argeleb is slain,"
+"*King Argeleb is slain,"
 END
 
 SUBTITLE:BAM3E_02
-"his hope for a unified North Kingdom shattered with his pride in the ruins of Rhudaur."
+"*his hope for a unified North Kingdom shattered with his pride in the ruins of Rhudaur."
 END
 
 SUBTITLE:BAM3E_03
-"Hwaldar takes his place as a leading commander serving the Iron Crown,"
+"*Hwaldar takes his place as a leading commander serving the Iron Crown,"
 END
 
 SUBTITLE:BAM3E_04
-"while his people provide more minions for the Maîtres des esclaves"
+"*while his people provide more minions for the Thrall Masters."
 END
 
 SUBTITLE:BAM3E_05
-"But despite their wounds, the Dúnedain are not without power."
+"*But despite their wounds, the Dúnedain are not without power."
 END
 
 SUBTITLE:BAM3E_06
-"The fortified Weather Hills et fortress at Amon Sûl stet as a shield protecting Fornost et the heart d'Arnor…¦"
+"*The fortified Weather Hills and fortress at Amon Sûl stand as a shield protecting Fornost and the heart of Arnor…"
 END
 
 SUBTITLE:BAM3O_01
-"In the face of this gathering storm, King Argeleb of Arthedain reclaims the throne of all Arnor."
+"*In the face of this gathering storm, King Argeleb of Arthedain reclaims the throne of all Arnor."
 END
 
 SUBTITLE:BAM3O_02
-"Cardolan does not oppose him, but one faction of the Hillmen of Rhudaur begin to rebel."
+"*Cardolan does not oppose him, but one faction of the Hillmen of Rhudaur begin to rebel."
 END
 
 SUBTITLE:BAM3O_05
-"But Angmar, its power ready, advances into the weakest of the Dúnedain realms"
+"*But Angmar, its power ready, advances into the weakest of the Dúnedain realms."
 END
 
 SUBTITLE:BAM3O_06
-"Thus one man's lust for power has given Le Roi-Sorcier an opportunity…¦"
+"*Thus one man’s lust for power has given the Witch-king an opportunity…"
 END
 
 SUBTITLE:BAM4E_01
-"Amon Sûl is laid to ruin."
+"*Amon Sûl is laid to ruin."
 END
 
 SUBTITLE:BAM4E_02
-"With its garrison reduced, the great bastion du Nord could not withstet Angmar's rage."
+"*With its garrison reduced, the great bastion of the north could not withstand Angmar’s rage."
 END
 
 SUBTITLE:BAM4E_03
-"But Angmar's victory is not complete;"
+"*But Angmar’s victory is not complete;"
 END
 
 SUBTITLE:BAM4E_04
-"Arveleg has escaped Amon Sûl with a prize that Le Roi-Sorcier covets over all others…¦"
+"*Arveleg has escaped Amon Sûl with a prize that the Witch-king covets over all others…"
 END
 
 SUBTITLE:BAM4O_01
-"The new king, Arveleg son of Argeleb, with the help of Cardolan et the Elves, has checked Angmar's advance;"
+"*The new king, Arveleg son of Argeleb, with the help of Cardolan and the Elves, has checked Angmar’s advance;"
 END
 
 SUBTITLE:BAM4O_02
-" for many years they have held a frontier along the Weather Hills"
+"* for many years they have held a frontier along the Weather Hills."
 END
 
 SUBTITLE:BAM4O_03
-"Using the power of the Palantír d'Amon Sûl, Arveleg has foiled every attack et stratagem."
+"*Using the power of the Palantir of Amon Sûl, Arveleg has foiled every attack and stratagem."
 END
 
 SUBTITLE:BAM4O_04
-"Le Roi-Sorcier must now undertake a daring et dangerous strategy: a direct assault on the fortress d'Amon Sûl."
+"*The Witch-king must now undertake a daring and dangerous strategy: a direct assault on the fortress of Amon Sûl."
 END
 
 SUBTITLE:BAM4O_05
-"Diversionary attacks draw off the forces of Cardolan et the Elves, while the main army strikes the fortress"
+"*Diversionary attacks draw off the forces of Cardolan and the Elves, while the main army strikes the fortress."
 END
 
 SUBTITLE:BAM4O_06
-"Although not the largest bastions in Middle-Earth, Amon Sûl is host to a mighty power …“ the master Palantír du Nord."
+"*Although not the largest bastions in Middle-Earth, Amon Sûl is host to a mighty power – the master Palantir of the North."
 END
 
 SUBTITLE:BAM5E_01
-"The shards of the Palantír still contain great power."
+"*The shards of the Palantir still contain great power."
 END
 
 SUBTITLE:BAM5E_02
-"For many centuries the Númenóréens Noirs have dabbled in the dark arts"
+"*For many centuries the Black Númenoreans have dabbled in the dark arts."
 END
 
 SUBTITLE:BAM5E_03
-"Now these Sorciers have a focus to enhance et concentrate their power, unleashing a new terror upon Arnor."
+"*Now these sorcerers have a focus to enhance and concentrate their power, unleashing a new terror upon Arnor."
 END
 
 SUBTITLE:BAM5O_01
-"The fall d'Amon Sûl is a terrible blow to the will of the Dúnedain."
+"*The fall of Amon Sûl is a terrible blow to the will of the Dúnedain."
 END
 
 SUBTITLE:BAM5O_02
-"However, a brave bet led by Arveleg has fled the fortress with the Palantír, heading back toward Fornost."
+"*However, a brave band led by Arveleg has fled the fortress with the Palantir, heading back toward Fornost."
 END
 
 SUBTITLE:BAM5O_03
-"Angered by its escape, Le Roi-Sorcier dispatches the Lieutenant of Carn Dûm with orders to retrieve the stolen orb."
+"*Angered by its escape, the Witch-king dispatches the Lieutenant of Carn Dûm with orders to retrieve the stolen orb."
 END
 
 SUBTITLE:BAM60_06
-"Le Roi-Sorcier orders his proven lieutenants, Hwaldar et Rogash, to seize the most sacred ground in Arnor, the Barrow Downs"
+"*The Witch-king orders his proven lieutenants, Hwaldar and Rogash, to seize the most sacred ground in Arnor, the Barrow Downs."
 END
 
 SUBTITLE:BAM6E_01
-"Everywhere the armies d'Angmar march, death et desolation follow."
+"*Everywhere the armies of Angmar march, death and desolation follow."
 END
 
 SUBTITLE:BAM6E_02
-"Cardolan est tombé, et all that remains is the realm of Arthedain. Men have allowed this to happen…¦"
+"*Cardolan has fallen, and all that remains is the realm of Arthedain. Men have allowed this to happen…"
 END
 
 SUBTITLE:BAM6E_03
-"Their indecision et disunity have brought them to the brink of annihilation…¦"
+"*Their indecision and disunity have brought them to the brink of annihilation…"
 END
 
 SUBTITLE:BAM6O_01
-"The destruction d'Amon Sûl et its Palantír crippled the Army of Arthedain, but Fornost still stands"
+"*The destruction of Amon Sûl and its palantir crippled the Army of Arthedain, but Fornost still stands."
 END
 
 SUBTITLE:BAM6O_02
-"The army et the people are prepared to defend the city to the bitter end."
+"*The army and the people are prepared to defend the city to the bitter end."
 END
 
 SUBTITLE:BAM6O_03
-"But Le Roi-Sorcier cannot commit his army to a siege at Fornost with an enemy free to attack his rear."
+"*But the Witch-king cannot commit his army to a siege at Fornost with an enemy free to attack his rear."
 END
 
 SUBTITLE:BAM6O_04
-"For the army of Cardolan was not at Amon Sûl, et is still in the field."
+"*For the army of Cardolan was not at Amon Sûl, and is still in the field."
 END
 
 SUBTITLE:BAM6O_05
-"A way must be devised to make them fight on ground of Le Roi-Sorcier's choosing."
+"*A way must be devised to make them fight on ground of the Witch-king’s choosing."
 END
 
 SUBTITLE:BAM6O_07
-"With the hallowed graves of their ancestors et kings at risk, Cardolan will be forced to battle."
+"*With the hallowed graves of their ancestors and kings at risk, Cardolan will be forced to battle."
 END
 
 SUBTITLE:BAM6O_08
-"On these grounds Angmar can bleed them white, clearing the path for final victory."
+"*On these grounds Angmar can bleed them white, clearing the path for final victory."
 END
 
 SUBTITLE:BAM7E_01
-"Le Roi-Sorcier's cunning matches his cruelty."
+"*The Witch-king’s cunning matches his cruelty."
 END
 
 SUBTITLE:BAM7E_02
-"The well-timed arrival of his lieutenants prevented a complete annihilation of his army."
+"*The well-timed arrival of his lieutenants prevented a complete annihilation of his army."
 END
 
 SUBTITLE:BAM7E_03
-"The Iron Crown has suffered a heavy blow, but Angmar has not been defeated …¦"
+"*The Iron Crown has suffered a heavy blow, but Angmar has not been defeated …"
 END
 
 SUBTITLE:BAM7E_04
-"It will take time to recover its strength…¦ Perhaps enough time for Arnor to rise anew."
+"*It will take time to recover its strength… Perhaps enough time for Arnor to rise anew."
 END
 
 SUBTITLE:BAM7E_05
-"But Le Roi-Sorcier has no intention of allowing this to happen…¦"
+"*But the Witch-king has no intention of allowing this to happen…"
 END
 
 SUBTITLE:BAM7O_01
-"Arnor sits at the edge of the abyss. Rhudaur is Le Roi-Sorcier's, Cardolan is reduced to scattered bands of refugees"
+"*Arnor sits at the edge of the abyss. Rhudaur is the Witch-king’s, Cardolan is reduced to scattered bands of refugees."
 END
 
 SUBTITLE:BAM7O_02
-"Only Fornost stands between Angmar et total domination du Nord."
+"*Only Fornost stands between Angmar and total domination of the North."
 END
 
 SUBTITLE:BAM7O_03
-"Or so it appeared. The attack on Fondcombe has united the Elven strongholds"
+"*Or so it appeared. The attack on Rivendell has united the Elven strongholds."
 END
 
 SUBTITLE:BAM7O_04
-"Now, the Elves du Lindon, Fondcombe et even Lórien march against Angmar."
+"*Now, the Elves of Lindon, Rivendell and even Lothlórien march against Angmar."
 END
 
 SUBTITLE:BAM7O_05
-"They are intent to drive a sword into the heart d'Angmar that would last an age …¦"
+"*They are intent to drive a sword into the heart of Angmar that would last an age …"
 END
 
 SUBTITLE:BAM8E_01
-"Though he fought with a valor rarely seen among men, the young Arnorian Capitaine paid a price beyond death, et now serves the Iron Crown."
+"*Though he fought with a valor rarely seen among men, the young Arnorian captain paid a price beyond death, and now serves the Iron Crown."
 END
 
 SUBTITLE:BAM8E_02
-"Angmar's great plague stretched far et wide, striking at the heart d'Arnor et weakening the already fragile Dúnedain defenses"
+"*Angmar’s great plague stretched far and wide, striking at the heart of Arnor and weakening the already fragile Dúnedain defenses."
 END
 
 SUBTITLE:BAM8E_03
-"But Le Roi-Sorcier will not be satisfied until Arnor lay buried in the bodies et blood of its youth."
+"*But the Witch-king will not be satisfied until Arnor lay buried in the bodies and blood of its youth."
 END
 
 SUBTITLE:BAM8O_01
-"The Dúnedain d'Arnor believe the Elven strike will provide them a chance to recover."
+"*The Dunedain of Arnor believe the Elven strike will provide them a chance to recover."
 END
 
 SUBTITLE:BAM8O_02
-"Given time, Arnor can finish what the elves had started."
+"*Given time, Arnor can finish what the elves had started."
 END
 
 SUBTITLE:BAM8O_03
-"But they reckon without knowledge of the depth of Le Roi-Sorcier's hatred…¦"
+"*But they reckon without knowledge of the depth of the Witch-king’s hatred…"
 END
 
 SUBTITLE:BAM8O_04
-"He sends his Sorciers among the barrows of the great Arnor kings"
+"*He sends his sorcerers among the barrows of the great Arnor kings."
 END
 
 SUBTITLE:BAM8O_05
-"While the desecration of this hallowed soil might break the hearts of men, Le Roi-Sorcier has an even darker purpose:"
+"*While the desecration of this hallowed soil might break the hearts of men, the Witch-king has an even darker purpose:"
 END
 
 SUBTITLE:BAM8O_06
-"to unleash a malevolent plague across the lands of men et elves"
+"*to unleash a malevolent plague across the lands of men and elves."
 END
 
 SUBTITLE:BAM9E_01
-"Angmar's hammer fell, et down came Fornost, in ash et fire!"
+"*Angmar’s hammer fell, and down came Fornost, in ash and fire!"
 END
 
 SUBTITLE:BAM9E_02
-"Arnor never wakes from its age-long nightmare; thousands lay dead in the streets"
+"*Arnor never wakes from its age-long nightmare; thousands lay dead in the streets."
 END
 
 SUBTITLE:BAM9E_03
-"Le Roi-Sorcier's malice can now spread throughout these Northern Lands"
+"*The Witch-king’s malice can now spread throughout these Northern Lands."
 END
 
 SUBTITLE:BAM9E_04
-"Evil had come to Arnor…¦ et evil prevailed."
+"*Evil had come to Arnor… and evil prevailed."
 END
 
 SUBTITLE:BAM9O_01
-"Many years have passed since the great plague devastated the North."
+"*Many years have passed since the great plague devastated the North."
 END
 
 SUBTITLE:BAM9O_02
-"In great secrecy the hosts d'Angmar have been reforged, et the final stroke is ready to fall upon the last bastion d'Arnor's power: Fornost."
+"*In great secrecy the hosts of Angmar have been reforged, and the final stroke is ready to fall upon the last bastion of Arnor’s power: Fornost."
 END
 
 SUBTITLE:BAM9O_03
-"With its beautiful spires et unyielding walls, it alone stands between Le Roi-Sorcier et total victory."
+"*With its beautiful spires and unyielding walls, it alone stands between the Witch-king and total victory."
 END
 
 SUBTITLE:BAM9O_04
-"But the Dúnedain will not fall easily."
+"*But the Dunedain will not fall easily."
 END
 
 SUBTITLE:BAM9O_05
-"They have gathered all of their host et all of their allies for this battle."
+"*They have gathered all of their host and all of their allies for this battle."
 END
 
 SUBTITLE:BAM9O_06
-"The last et decisive battle for the North is about to begin...."
+"*The last and decisive battle for the North is about to begin...."
 END
 
 SUBTITLE:CAC10_01
-"The sharp spires of Mount Gundabad house several loosely allied tribes of Orques,"
+"*The sharp spires of Mount Gundabad house several loosely allied tribes of orcs,"
 END
 
 SUBTITLE:CAC10_02
-"who dominate the scattered snow Troll et goblin clans"
+"*who dominate the scattered snow troll and goblin clans."
 END
 
 SUBTITLE:CAC10_03
-"In order for Le Roi-Sorcier to defeat the realms d'Arnor, he needs the blood et iron de Gundabad."
+"*In order for the Witch-king to defeat the realms of Arnor, he needs the blood and iron of Gundabad."
 END
 
 SUBTITLE:CAC11_01
-"But Angmar needs sword arms, not corpses"
+"*But Angmar needs sword arms, not corpses."
 END
 
 SUBTITLE:CAC11_02
-"Therefore, he will win by guile that which force would destroy."
+"*Therefore, he will win by guile that which force would destroy."
 END
 
 SUBTITLE:CAC12_01
-"A blade in the dark forces a gathering of the tribes to compete for the crown…¦"
+"*A blade in the dark forces a gathering of the tribes to compete for the crown…"
 END
 
 SUBTITLE:CAC13_01
-"To this gathering, Le Roi-Sorcier sends his most fearsome lieutenant, Rogash, Troll du Nord,"
+"*To this gathering, the Witch-king sends his most fearsome lieutenant, Rogash, Troll of the North,"
 END
 
 SUBTITLE:CAC13_02
-"to ensure that the Orques de Gundabad will heed the orders of the Iron Crown…¦"
+"*to ensure that the orcs of Gundabad will heed the orders of the Iron Crown…"
 END
 
 SUBTITLE:CAC14_01
-" Through the power et savagery of Rogash, Mount Gundabad has yielded."
+"* Through the power and savagery of Rogash, Mount Gundabad has yielded."
 END
 
 SUBTITLE:CAC14_02
-"Now, legions of Orques fight under the commet of the Maîtres des esclaves d'Angmar."
+"*Now, legions of orcs fight under the command of the Thrall Masters of Angmar."
 END
 
 SUBTITLE:CAC14_03
-"The hammer is forged at last, ready to smite the heirs of Elendil et lay their kingdoms low…¦"
+"*The hammer is forged at last, ready to smite the heirs of Elendil and lay their kingdoms low…"
 END
 
 WOTR:TerritoryCommandCapExceeded
@@ -105936,6 +105940,10 @@ END
 
 Map:MAPMPAmonSulFortress/Desc
 "La forteresse de la colline venteuse d'Amon Sûl était la pierre angulaire de la défense d'Arnor contre Angmar.\n\nPoint de départ : Camps\nPoints d'expansion : 1 avant-poste et 8 colonies"
+END
+
+Map:MAPMPAmonSulFortress_gondor/Desc
+"La forteresse de la colline venteuse d'Amon Sûl était la pierre angulaire de la défense d'Arnor contre Angmar."
 END
 
 Map:MAPMPTournamentRhudaur
@@ -105983,7 +105991,7 @@ CONTROLBAR:LW_ToolTip_NoldorFeanor
 END
 
 CONTROLBAR:NoldorFeanorRecruit
-"Recruit the greatest son of the Eru \n \n Lore: \n Fëanor was a ?oldorin elf and one of the Elven kindred that departed from Valinor in the land of Aman, where they had lived with the Valar. He was born in Valinor, the only child of Finwë, High King of the ?oldor, and Finwë's first wife Míriel Therindë. He was a craftsman, gem-smith, and warrior, the maker of the Silmarils and inventor of the Tengwar script. He was also the creator of the 7 Palantíri. He was made the mightiest in all parts of body and mind; of beauty, understanding, skill, and subtlety, of all the Children of Ilúvatar. However, his personality was riddled with flaws, foremost among them selfishness and pride, that ultimately led to him causing his people untold anguish. Fëanor was possibly the strongest Elf that ever lived even surpassing Fingolfin and possibly Galadriel, he even contended with Gothmog (The greatest Balrog to have ever lived) on relative equal terms but was ultimately defeated and killed."
+"Recruit the greatest son of the Eru \n \n Lore: \n Fëanor was a Ñoldorin elf and one of the Elven kindred that departed from Valinor in the land of Aman, where they had lived with the Valar. He was born in Valinor, the only child of Finwë, High King of the Ñoldor, and Finwë's first wife Míriel Therindë. He was a craftsman, gem-smith, and warrior, the maker of the Silmarils and inventor of the Tengwar script. He was also the creator of the 7 Palantíri. He was made the mightiest in all parts of body and mind; of beauty, understanding, skill, and subtlety, of all the Children of Ilúvatar. However, his personality was riddled with flaws, foremost among them selfishness and pride, that ultimately led to him causing his people untold anguish. Fëanor was possibly the strongest Elf that ever lived even surpassing Fingolfin and possibly Galadriel, he even contended with Gothmog (The greatest Balrog to have ever lived) on relative equal terms but was ultimately defeated and killed."
 END
 
 CONTROLBAR:NoldorFeanorRevive
@@ -106164,7 +106172,7 @@ CONTROLBAR:LW_ToolTip_NoldorFingolfin
 END
 
 CONTROLBAR:NoldorFingolfinRecruit
-"Recruit the bravest warrior of the Quendi \n \n Lore: \n Fingolfin was the second High King of the ?oldor in Beleriand; the ?oldor being one of the 3 branches of Elves. He was the eldest son of Finwë and Indis, younger brother of Findis, older brother of Irimë and Finarfin, and the younger half-brother of Fëanor. He founded the House of Fingolfin, which ruled the ?oldor in Middle-earth. His wife was Anairë and his children were Fingon, Turgon, Aredhel, and Argon. Fingolfin was said to be the strongest, most steadfast, and most valiant of Finwë's sons. Fingolfin was one of if not the strongest Elf that ever lived, he even came close to if not completely matching his older half-brother Fëanor (who was possibly the strongest elf that ever lived), he even fought Morgoth, a Valar, but ultimately was defeated and killed."
+"Recruit the bravest warrior of the Quendi \n \n Lore: \n Fingolfin was the second High King of the Ñoldor in Beleriand; the Ñoldor being one of the 3 branches of Elves. He was the eldest son of Finwë and Indis, younger brother of Findis, older brother of Irimë and Finarfin, and the younger half-brother of Fëanor. He founded the House of Fingolfin, which ruled the Ñoldor in Middle-earth. His wife was Anairë and his children were Fingon, Turgon, Aredhel, and Argon. Fingolfin was said to be the strongest, most steadfast, and most valiant of Finwë's sons. Fingolfin was one of if not the strongest Elf that ever lived, he even came close to if not completely matching his older half-brother Fëanor (who was possibly the strongest elf that ever lived), he even fought Morgoth, a Valar, but ultimately was defeated and killed."
 END
 
 CONTROLBAR:NoldorFingolfinRevive
@@ -106361,7 +106369,7 @@ OBJECT:GondolinTurgon
 END
 
 CONTROLBAR:GondolinTurgonRecruit
-"Recruit Turgon, the great King of Gondolin, son of Fingolfin \n \n Lore: \n Turgon was a ?oldorin Elf of Gondolin, second son of Fingolfin, brother of Fingon, Aredhel, Argon, and father of Idril. In Middle-earth, Turgon was the King of Gondolin and the High King of the ?oldor. For hundreds of years of the First Age, Turgon remained successfully hidden from the eyes and ears of Morgoth until a betrayal from within caused his downfall. Turgon joined the Union of Maedhros with a 10 thousand strong army and fought alongside his brother Fingon in the Nirnaeth Arnoediad, but the sacrifice of Húrin, Huor, and the Third House of the Edain enabled him to retreat without revealing the location of Gondolin. When Tuor came to Gondolin in FA 496, Turgon welcomed him, but in his pride, he refused to follow the advice of Ulmo to flee to the Havens of Sirion. Now the full malice of Morgoth was directed toward Turgon, last of the House of Finwë to control a realm in Middle-earth. At last, aided by the treachery of Maeglin, Morgoth discovered the location of Gondolin, and Turgon was slain defending the city."
+"Recruit Turgon, the great King of Gondolin, son of Fingolfin \n \n Lore: \n Turgon was a Ñoldorin Elf of Gondolin, second son of Fingolfin, brother of Fingon, Aredhel, Argon, and father of Idril. In Middle-earth, Turgon was the King of Gondolin and the High King of the Ñoldor. For hundreds of years of the First Age, Turgon remained successfully hidden from the eyes and ears of Morgoth until a betrayal from within caused his downfall. Turgon joined the Union of Maedhros with a 10 thousand strong army and fought alongside his brother Fingon in the Nirnaeth Arnoediad, but the sacrifice of Húrin, Huor, and the Third House of the Edain enabled him to retreat without revealing the location of Gondolin. When Tuor came to Gondolin in FA 496, Turgon welcomed him, but in his pride, he refused to follow the advice of Ulmo to flee to the Havens of Sirion. Now the full malice of Morgoth was directed toward Turgon, last of the House of Finwë to control a realm in Middle-earth. At last, aided by the treachery of Maeglin, Morgoth discovered the location of Gondolin, and Turgon was slain defending the city."
 END
 
 CONTROLBAR:GondolinTurgonRevive
@@ -106575,7 +106583,7 @@ CONTROLBAR:LW_ToolTip_DoriathThingol
 END
 
 CONTROLBAR:DoriathThingolRecruit
-"Recruit one of 3 ambassadors (along with Ingwë and Finwë) \n that accompanied Oromë to Valinor, \n also King of Doriath and High King of the Sindar \n \n Lore: \n Elu Thingol was an Elf of the Teleri during the First Age. His brother was Olwë, who became the Lord of Alqualondë, Lord of Tol Eressëa, and High King of the Teleri of Aman, both of whom may have had a second brother called Elmo. He was a good friend of Finwë, the first High King of the ?oldor during the times before the elves reached Aman. He was the founder and first King of the northern Elven Kingdom of Doriath and was respected by all the Sindar of the Beleriand, who considered him to be the High King of the Sindar and the Lord of Beleriand."
+"Recruit one of 3 ambassadors (along with Ingwë and Finwë) \n that accompanied Oromë to Valinor, \n also King of Doriath and High King of the Sindar \n \n Lore: \n Elu Thingol was an Elf of the Teleri during the First Age. His brother was Olwë, who became the Lord of Alqualondë, Lord of Tol Eressëa, and High King of the Teleri of Aman, both of whom may have had a second brother called Elmo. He was a good friend of Finwë, the first High King of the Ñoldor during the times before the elves reached Aman. He was the founder and first King of the northern Elven Kingdom of Doriath and was respected by all the Sindar of the Beleriand, who considered him to be the High King of the Sindar and the Lord of Beleriand."
 END
 
 CONTROLBAR:DoriathThingolRevive
@@ -106931,7 +106939,7 @@ CONTROLBAR:TooltipDoriathMelianSummonTree
 END
 
 CONTROLBAR:DoriathMelianEnchantmentBelt
-"Melian?s Enchantment &Belt"
+"Melian’s Enchantment &Belt"
 END
 
 CONTROLBAR:ToolTipDoriathMelianEnchantmentBelt
@@ -107233,7 +107241,7 @@ CONTROLBAR:LW_ToolTip_ValinorThorondor
 END
 
 CONTROLBAR:ValinorThorondorRecruit
-"Recruit Thorondor Lord of the Eagles \n \n Lore: \n Thorondor was the King of Eagles of Middle-earth during the First Age. He was presumably the greatest of all the Eagles in terms of size, with his wingspan measuring at 30 fathoms (180 feet). Thorondor was sent by Manwë, King of the Valar, to watch over the ?oldor after they arrived in Beleriand. The Eldar first encountered him when he helped Fingon rescue Maedhros from imprisonment from Thangorodrim, upon which he had apparently made his home for a short time. After that, Thorondor and the rest of the Eagles settled in the Crissaegrim. When Gondolin was built, Thorondor became the ever vigilant guardian of the city. He rescued Fingolfin's body from defilement after Morgoth killed him, giving the Dark Lord a scar on his face. He, Landroval, and Gwaihir rescued Beren and Lúthien when Angband was aroused. When Gondolin fell, Thorondor rescued the survivors. During the War of Wrath, Thorondor and Earendil led the Eagles in battle with the Dragons, and may have fought with Ancalagon the Black."
+"Recruit Thorondor Lord of the Eagles \n \n Lore: \n Thorondor was the King of Eagles of Middle-earth during the First Age. He was presumably the greatest of all the Eagles in terms of size, with his wingspan measuring at 30 fathoms (180 feet). Thorondor was sent by Manwë, King of the Valar, to watch over the Ñoldor after they arrived in Beleriand. The Eldar first encountered him when he helped Fingon rescue Maedhros from imprisonment from Thangorodrim, upon which he had apparently made his home for a short time. After that, Thorondor and the rest of the Eagles settled in the Crissaegrim. When Gondolin was built, Thorondor became the ever vigilant guardian of the city. He rescued Fingolfin's body from defilement after Morgoth killed him, giving the Dark Lord a scar on his face. He, Landroval, and Gwaihir rescued Beren and Lúthien when Angband was aroused. When Gondolin fell, Thorondor rescued the survivors. During the War of Wrath, Thorondor and Earendil led the Eagles in battle with the Dragons, and may have fought with Ancalagon the Black."
 END
 
 CONTROLBAR:ValinorThorondorRevive
@@ -107294,7 +107302,7 @@ CONTROLBAR:LW_Hero_NargothrondFinrod
 END
 
 CONTROLBAR:NargothrondFinrodRecruit
-"Recruit the most beloved elf by the Edain \n \n Lore: \n Finrod, also known fully as Finrod Felagund, was a ?oldorin Elf who was born in Aman, probably in Tirion. He was the eldest son of Finarfin and Earwen, and the brother of Galadriel, Angrod and Aegnor. Finrod was one of the noblest elves of the House of Finarfin and a friend of Men. His nobility and death saving Beren and his opposition to the Oath of Fëanor allowed for his return to life in Valinor, making him the first Elf to be reincarnated in the Undying Lands before the end of First Age. Finrod was friendly with Turgon and the House of Fingolfin. He opposed Fëanor and the Oath when he sought to return to Middle-earth to recover the Silmarils from Morgoth, but chose not to be parted with his friends and so he followed his father and his House and the House of Fingolfin. Finrod did not fight in the Kinslaying of Alqualondë nor was he aware of it as he continued the transit through Araman. While marching up the coast, the host encountered a figure on a rock and heard the Prophecy of the North. Afterwards, Finarfin and many of his followers departed and returned to Tirion, but Finrod chose to continue onto Middle-earth with the host of Fingolfin."
+"Recruit the most beloved elf by the Edain \n \n Lore: \n Finrod, also known fully as Finrod Felagund, was a Ñoldorin Elf who was born in Aman, probably in Tirion. He was the eldest son of Finarfin and Earwen, and the brother of Galadriel, Angrod and Aegnor. Finrod was one of the noblest elves of the House of Finarfin and a friend of Men. His nobility and death saving Beren and his opposition to the Oath of Fëanor allowed for his return to life in Valinor, making him the first Elf to be reincarnated in the Undying Lands before the end of First Age. Finrod was friendly with Turgon and the House of Fingolfin. He opposed Fëanor and the Oath when he sought to return to Middle-earth to recover the Silmarils from Morgoth, but chose not to be parted with his friends and so he followed his father and his House and the House of Fingolfin. Finrod did not fight in the Kinslaying of Alqualondë nor was he aware of it as he continued the transit through Araman. While marching up the coast, the host encountered a figure on a rock and heard the Prophecy of the North. Afterwards, Finarfin and many of his followers departed and returned to Tirion, but Finrod chose to continue onto Middle-earth with the host of Fingolfin."
 END
 
 CONTROLBAR:NargothrondFinrodRevive
@@ -107383,7 +107391,7 @@ CONTROLBAR:SummonValinorManwe
 END
 
 CONTROLBAR:ToolTipSummonValinorManwe
-"Requires: Tol Galen Fortress Level 5 \n Summon Manwë, \n The greatest of the Ainur, one of the Aratar, King of the Valar. \n Left click to activate \n \n Lore: \n He was also known as Súlimo, Mânawen?z or Valahiru and lives atop Mount Taniquetil in Valinor, the highest mountain of the world. The winds and airs are his servants. He was the greatest in authority, but not in power, of all the Valar, Morgoth being more powerful. He was however the greatest of the Aratar, among whom Morgoth was not counted. Manwë was (with Morgoth) the eldest of the Ainur, and the one that best understood the will of Eru. When Morgoth created the discord in the Music of the Ainur, the Second Theme of Eru that rose to counter the discord used Manwë as its chief instrument. When Arda was formed, Manwë was appointed Ruler of Arda, hence his most common title, the Elder King. Manwë was a kind, compassionate ruler, unconcerned with his own power. He oversaw all of the Valar's early attempts to order Arda, but was unable to stop Morgoth's rampages until the Vala Tulkas came to Arda to assist his brethren."
+"Requires: Tol Galen Fortress Level 5 \n Summon Manwë, \n The greatest of the Ainur, one of the Aratar, King of the Valar. \n Left click to activate \n \n Lore: \n He was also known as Súlimo, Mânawenûz or Valahiru and lives atop Mount Taniquetil in Valinor, the highest mountain of the world. The winds and airs are his servants. He was the greatest in authority, but not in power, of all the Valar, Morgoth being more powerful. He was however the greatest of the Aratar, among whom Morgoth was not counted. Manwë was (with Morgoth) the eldest of the Ainur, and the one that best understood the will of Eru. When Morgoth created the discord in the Music of the Ainur, the Second Theme of Eru that rose to counter the discord used Manwë as its chief instrument. When Arda was formed, Manwë was appointed Ruler of Arda, hence his most common title, the Elder King. Manwë was a kind, compassionate ruler, unconcerned with his own power. He oversaw all of the Valar's early attempts to order Arda, but was unable to stop Morgoth's rampages until the Vala Tulkas came to Arda to assist his brethren."
 END
 
 CONTROLBAR:ManweLeadership
@@ -108001,7 +108009,7 @@ CONTROLBAR:EonweManweHerald
 END
 
 CONTROLBAR:ToolTipEonweManweHerald
-"Eonwë is a Manwë?s banner-bearer and herald, one of the chiefs of the Maiar, said to be the best in Arda with weapons\n All units near Eonwë resist fear and gain experience 4 times faster\n Passive ability"
+"Eonwë is a Manwë’s banner-bearer and herald, one of the chiefs of the Maiar, said to be the best in Arda with weapons\n All units near Eonwë resist fear and gain experience 4 times faster\n Passive ability"
 END
 
 CONTROLBAR:EonweManweHerald2
@@ -110736,7 +110744,7 @@ CONTROLBAR:LW_ToolTip_AngbandGothmog
 END
 
 CONTROLBAR:AngbandGothmogRecruit
-"Recruit Gothmog, the greatest Balrog ever to walk Middle-earth \n \n Lore: \n Gothmog was the Lord of Balrogs during the First Age. As the High Captain of Angband, his only equal in rank was Sauron. He fought many battles in the name of his master Morgoth, and was personally responsible for killing 2 of the High Kings of the ?oldor. \n Gothmog was initially one of the Maiar who were under the allegiance of Morgoth. Prior to the Revolt of the ?oldor, he was the High Captain of Angband and given the title Lord of the Balrogs."
+"Recruit Gothmog, the greatest Balrog ever to walk Middle-earth \n \n Lore: \n Gothmog was the Lord of Balrogs during the First Age. As the High Captain of Angband, his only equal in rank was Sauron. He fought many battles in the name of his master Morgoth, and was personally responsible for killing 2 of the High Kings of the Ñoldor. \n Gothmog was initially one of the Maiar who were under the allegiance of Morgoth. Prior to the Revolt of the Ñoldor, he was the High Captain of Angband and given the title Lord of the Balrogs."
 END
 
 CONTROLBAR:AngbandGothmogRevive
@@ -112497,31 +112505,31 @@ END
 
 
 OBJECT:ThargelionMumakil
-"Thargelion M?mak"
+"Thargelion Mûmak"
 END
 
 CONTROLBAR:BuildThargelionMumakil
-"Thargelion &M?mak"
+"Thargelion &Mûmak"
 END
 
 CONTROLBAR:ToolTipThargelionMumakil
-"Unit Type: Regular Monster \n Strong vs: Cavalry and Structures \n You can only train 5 Thargelion M?makil"
+"Unit Type: Regular Monster \n Strong vs: Cavalry and Structures \n You can only train 5 Thargelion Mûmakil"
 END
 
 BANNERUI:ThargelionMumakil
-"Thargelion M?mak"
+"Thargelion Mûmak"
 END
 
 BANNERUI:ThargelionMumakils
-"Thargelion M?makil"
+"Thargelion Mûmakil"
 END
 
 CONTROLBAR:LW_Unit_ThargelionMumakil
-"Thargelion M?mak"
+"Thargelion Mûmak"
 END
 
 CONTROLBAR:LW_Unit_ThargelionMumakilPlural
-"Thargelion M?makil"
+"Thargelion Mûmakil"
 END
 
 CONTROLBAR:LW_ToolTipBuild_ThargelionMumakil
@@ -112537,7 +112545,7 @@ CONTROLBAR:ThargelionMumakilLeadership
 END
 
 CONTROLBAR:TooltipThargelionMumakilLeadership
-"Requires: Level 8 \n Enemy units near the M?mak lose armor and recharge their powers slower \n Passive ability"
+"Requires: Level 8 \n Enemy units near the Mûmak lose armor and recharge their powers slower \n Passive ability"
 END
 
 
@@ -113305,7 +113313,7 @@ CONTROLBAR:BuildThargelionChariot
 END
 
 CONTROLBAR:ToolTipThargelionChariot
-"Requires: Kham?l with Lieutenant's Insignia\n Strong Fierce Machines \n Strong vs Infantry, Weak vs Spears"
+"Requires: Khamûl with Lieutenant's Insignia\n Strong Fierce Machines \n Strong vs Infantry, Weak vs Spears"
 END
 
 //------------ Morgul Vangard ---------------
@@ -113958,7 +113966,7 @@ CONTROLBAR:TogglePalantirZaphragor1
 END
 
 CONTROLBAR:ToolTipTogglePalantirZaphragor1
-"Zaphragor's loyalty to the prince of the Nazg?l and his kingdom of ice and steel is eternal \n Switches the Palantir"
+"Zaphragor's loyalty to the prince of the Nazgûl and his kingdom of ice and steel is eternal \n Switches the Palantir"
 END
 
 CONTROLBAR:TogglePalantirZaphragor2
@@ -114030,7 +114038,7 @@ CONTROLBAR:PlanedesHexenmeisters
 END
 
 CONTROLBAR:ToolTipPlanedesHexenmeisters
-"Requires: All power extensions have been researched \n The prince of the Nazg?l begins to forge plans against the Dúnedain and their allies when they are the most vulnerable\n The Witch-king is met with a selection menu displaying different plans where he can choose one for his liking\n Each plan requires a different amount of resources and time to execute\n When the ability is used, only one plan may be initiated at a time\n Left-click to enable"
+"Requires: All power extensions have been researched \n The prince of the Nazgûl begins to forge plans against the Dúnedain and their allies when they are the most vulnerable\n The Witch-king is met with a selection menu displaying different plans where he can choose one for his liking\n Each plan requires a different amount of resources and time to execute\n When the ability is used, only one plan may be initiated at a time\n Left-click to enable"
 END
 
 CONTROLBAR:PlanedesHexenmeistersdeaktivierenObject
@@ -114038,7 +114046,7 @@ CONTROLBAR:PlanedesHexenmeistersdeaktivierenObject
 END
 
 CONTROLBAR:SchreckenCarnDumsObject
-"Plan: Horror of Carn D?m"
+"Plan: Horror of Carn Dûm"
 END
 
 CONTROLBAR:ToolTipSchreckenCarnDumsObject
@@ -114198,11 +114206,11 @@ CONTROLBAR:ToolTipDrauglinWolfeinderNacht
 END
 
 CONTROLBAR:Trollerekrutieren
-"D?rmarth's Army"
+"Dûrmarth's Army"
 END
 
 CONTROLBAR:ToolTipTrollerekrutieren
-"During his glorious upbringing as a Black Guard, D?rmarth trains new soldiers for Angmar \n D?rmarth calls the tribes of the North to serve Angmar \n Level 1:\n A Damned horde is called to support \n Level 3:\n A Damned horde and a Númenor elite horde is called to support the forces of Angmar \n Level 5:\n A Damned horde and 2 Númenor elite horde are being called \n Level 7:\n A Damned horde, 2 Númenor elite hordes and a Dark Iron Guardian horde is called to support \n Level 10:\n A Damned horde is being called and 2 fearsome Shadow Guard hordes are being called to support the Witch-king"
+"During his glorious upbringing as a Black Guard, Dûrmarth trains new soldiers for Angmar \n Dûrmarth calls the tribes of the North to serve Angmar \n Level 1:\n A Damned horde is called to support \n Level 3:\n A Damned horde and a Númenor elite horde is called to support the forces of Angmar \n Level 5:\n A Damned horde and 2 Númenor elite horde are being called \n Level 7:\n A Damned horde, 2 Númenor elite hordes and a Dark Iron Guardian horde is called to support \n Level 10:\n A Damned horde is being called and 2 fearsome Shadow Guard hordes are being called to support the Witch-king"
 END
 
 OBJECT:AngmarGolfimbul
@@ -114246,7 +114254,7 @@ UPGRADE:GolfimbulsAufstieg2
 END
 
 UPGRADE:GolfimbulsAufstieg3
-"Carn D?m's Reign of Terror"
+"Carn Dûm's Reign of Terror"
 END
 
 CONTROLBAR:GolfimbulsAufstieg1
@@ -114840,7 +114848,7 @@ CONTROLBAR:EarnurHerausforderungdesHexenkonigs
 END
 
 CONTROLBAR:ToolTipEarnurHerausforderungdesHexenkonigs
-"Requires: Level 10 \n The Witch-king himself arrives challenges Earnur to fight \n The downfall of the Nazg?l means the end of Angmar \n The Witch-king spawns at the destination \n If he is defeated, all units that were involved in his death rise to Level 2 and breifly obtain +300% armor \n Caution: If the opponent destroys him, those soldiers get the bonus \n Left-click to fight the Lord of Angmar"
+"Requires: Level 10 \n The Witch-king himself arrives challenges Earnur to fight \n The downfall of the Nazgûl means the end of Angmar \n The Witch-king spawns at the destination \n If he is defeated, all units that were involved in his death rise to Level 2 and breifly obtain +300% armor \n Caution: If the opponent destroys him, those soldiers get the bonus \n Left-click to fight the Lord of Angmar"
 END
 
 CONTROLBAR:AnarionVerteidigerGondors
@@ -114936,7 +114944,7 @@ CONTROLBAR:ToolTipArveduiArveduiZerbrochenesSchwert_Fake
 END
 
 CONTROLBAR:ToolTipArveduiBarahirsRing
-"Requires: Level 6 \n Barahir's Ring was a gift to Barahir from the Edain Finrod Felagund of the first age and symbolizes the eternal friendship between the Eldar and the Dun?dain \n Arvedui passes the ring onto a hero from the spell book spell "Bloodline of Kings," whose time on the battlefield extends enormously and receives new, improved skills \n Left-click on Arveleg or Argeleb"
+"Requires: Level 6 \n Barahir's Ring was a gift to Barahir from the Edain Finrod Felagund of the first age and symbolizes the eternal friendship between the Eldar and the Dunèdain \n Arvedui passes the ring onto a hero from the spell book spell "Bloodline of Kings," whose time on the battlefield extends enormously and receives new, improved skills \n Left-click on Arveleg or Argeleb"
 END
 
 CONTROLBAR:ToolTipArveduiBarahirsRing_Ring
@@ -115602,15 +115610,15 @@ CONTROLBAR:TooltipErdenhammerderZwerge
 END
 
 CONTROLBAR:MausoleumSummonNain
-"N?in II"
+"Nàin II"
 END
 
 CONTROLBAR:ToolTipMausoleumSummonNain
-"The Son of Grór and father of D?in Ironfoot is a mighty Prince of the Iron Hills, capable of leading the dwarves into victory \n\n Special mechanics: \n If N?in is slain, allied heroes in the vicinity will momentarily become enraged with anger \n Only one ancient king can be called at a time \n If N?in is called, no one else can be called until N?in is slain"
+"The Son of Grór and father of Dàin Ironfoot is a mighty Prince of the Iron Hills, capable of leading the dwarves into victory \n\n Special mechanics: \n If Nàin is slain, allied heroes in the vicinity will momentarily become enraged with anger \n Only one ancient king can be called at a time \n If Nàin is called, no one else can be called until Nàin is slain"
 END
 
 CONTROLBAR:TooltipNainZwergenlegende
-"Prince N?in, D?ins Father, one again leads the mighty dwarves the Iron Hills in the war \n At 50 second intervals, N?in lets out a battle cry in which nearby allied units for 30 seconds gain a 33% speed boost \n\n Special mechanics: \n If N?in is slain, allied heroes in the vicinity will momentarily become enraged with anger, making them invulnerable and deal double damge for a short period of time \n Passive ability"
+"Prince Nàin, Dàins Father, one again leads the mighty dwarves the Iron Hills in the war \n At 50 second intervals, Nàin lets out a battle cry in which nearby allied units for 30 seconds gain a 33% speed boost \n\n Special mechanics: \n If Nàin is slain, allied heroes in the vicinity will momentarily become enraged with anger, making them invulnerable and deal double damge for a short period of time \n Passive ability"
 END
 
 CONTROLBAR:NainReisedurchdieTunnel
@@ -115618,7 +115626,7 @@ CONTROLBAR:NainReisedurchdieTunnel
 END
 
 CONTROLBAR:ToolTipNainReisedurchdieTunnel
-"Requries: Level 3 \n N?in is a master of underground warfare \n With his help, the dwarves of the Iron Mountains can attack anywhere on the map and surprise the enemy \n N?in quickly digs a up a mineshaft, which is connected to the tunnel network, and moves in with his fellow Dwarves \n Left-click to tunnel"
+"Requries: Level 3 \n Nàin is a master of underground warfare \n With his help, the dwarves of the Iron Mountains can attack anywhere on the map and surprise the enemy \n Nàin quickly digs a up a mineshaft, which is connected to the tunnel network, and moves in with his fellow Dwarves \n Left-click to tunnel"
 END
 
 CONTROLBAR:NainTunnelausheben
@@ -115626,7 +115634,7 @@ CONTROLBAR:NainTunnelausheben
 END
 
 Controlbar:TooltipNainTunnelausheben
-"N?in and his dwarves dig a tunnel to the selected destination and shoot the entrance out of the ground \n Left-click the icon then left-click the desired destination point"
+"Nàin and his dwarves dig a tunnel to the selected destination and shoot the entrance out of the ground \n Left-click the icon then left-click the desired destination point"
 END
 
 CONTROLBAR:ToolTipNainReisedurchdieTunnel_Zuruck
@@ -115638,7 +115646,7 @@ CONTROLBAR:NainInspiration
 END
 
 CONTROLBAR:ToolTipNainInspiration
-"Requires: Level 5 \n The mighty dwarf prince inspires his people with his great deeds \n Briefly, the effect of N?in's battle call is intensified \n For the next 2-3 battle cries, the affect allied units gain 50% armor and attack in addition to the speed boost\n Affected dwarves cannot be knocked down either \n Cannot be used when the ability "Dwarven Anger" is active \n Left-click to activate"
+"Requires: Level 5 \n The mighty dwarf prince inspires his people with his great deeds \n Briefly, the effect of Nàin's battle call is intensified \n For the next 2-3 battle cries, the affect allied units gain 50% armor and attack in addition to the speed boost\n Affected dwarves cannot be knocked down either \n Cannot be used when the ability "Dwarven Anger" is active \n Left-click to activate"
 END
 
 CONTROLBAR:NainZwergenzorn
@@ -115646,7 +115654,7 @@ CONTROLBAR:NainZwergenzorn
 END
 
 CONTROLBAR:ToolTipNainZwergenzorn
-"Requries: Level 7 \n N?in let his anger run free and comes like a storm over his opponents \n The next 2-3 battle-cries N?in lets loose now prevent hit enemy units from escaping \n Cannot be used when the ability "Inspiration" is active \n Left-click to activate"
+"Requries: Level 7 \n Nàin let his anger run free and comes like a storm over his opponents \n The next 2-3 battle-cries Nàin lets loose now prevent hit enemy units from escaping \n Cannot be used when the ability "Inspiration" is active \n Left-click to activate"
 END
 
 CONTROLBAR:NainMachtigerAnsturm
@@ -115654,7 +115662,7 @@ CONTROLBAR:NainMachtigerAnsturm
 END
 
 CONTROLBAR:TooltipNainMachtigerAnsturm
-"Requires: Level 10 \n N?in calls a chariot from the Iron Hills that appears out of nowhere and slams the selected target with terrible ram force \n Very effective against single targets \n Left-click on the desired target"
+"Requires: Level 10 \n Nàin calls a chariot from the Iron Hills that appears out of nowhere and slams the selected target with terrible ram force \n Very effective against single targets \n Left-click on the desired target"
 END
 
 OBJECT:DwarvenThrarin
@@ -115990,15 +115998,15 @@ CONTROLBAR:ToolTipBolgSchlachtderfunfHeere
 END
 
 CONTROLBAR:MausoleumSummonNar
-"N?r"
+"Nàr"
 END
 
 CONTROLBAR:ToolTipMausoleumSummonNar
-"Call the famous friend, companion, and advisor of King Thrór on the battlefield, the heroes of the Ered Luin to defend and to make the enemy Hero even \n Special mechanics:\n dies an ally dwarves hero in n?rs near detent this momentarily before anger \n Only one ancient king can be called at a time \n If N?r is called, no one else can be called until N?r is slain"
+"Call the famous friend, companion, and advisor of King Thrór on the battlefield, the heroes of the Ered Luin to defend and to make the enemy Hero even \n Special mechanics:\n dies an ally dwarves hero in nàrs near detent this momentarily before anger \n Only one ancient king can be called at a time \n If Nàr is called, no one else can be called until Nàr is slain"
 END
 
 CONTROLBAR:ToolTipNarZwergenlegende
-"The good friend, faithful servant, and adviser of King Thrór returns to lead the Dwarves of Ered Luin in the war and protects the heroes of the dwarves with his life \n Allied heroes near N?r get an additional 33% armor and damage \n\n Special mechanics: \n If an allied hero of ered Luin dies, N?r burns with rage, becoming momentarily invincible and causing double damage \n Passive ability"
+"The good friend, faithful servant, and adviser of King Thrór returns to lead the Dwarves of Ered Luin in the war and protects the heroes of the dwarves with his life \n Allied heroes near Nàr get an additional 33% armor and damage \n\n Special mechanics: \n If an allied hero of ered Luin dies, Nàr burns with rage, becoming momentarily invincible and causing double damage \n Passive ability"
 END
 
 CONTROLBAR:NarSchildwachederZwergenkonige
@@ -116006,7 +116014,7 @@ CONTROLBAR:NarSchildwachederZwergenkonige
 END
 
 CONTROLBAR:ToolTipNarSchildwachederZwergenkonige
-"Requires: Level 3 \n N?r is used to Durin's House and devoted himself completely to the service of his descendants with body and soul \n N?r chooses a Dwarven hero of Ered Luin to be his bodyguard \n While he protects the chosen hero, he deals strong surface damage and has significantly more armor and life points \n If N?r dies, so does his protected hero, but if his lord dies, N?r becomes overwhelmed by grief and cannot be controlled for thirty seconds \n Left-click on the desired hero"
+"Requires: Level 3 \n Nàr is used to Durin's House and devoted himself completely to the service of his descendants with body and soul \n Nàr chooses a Dwarven hero of Ered Luin to be his bodyguard \n While he protects the chosen hero, he deals strong surface damage and has significantly more armor and life points \n If Nàr dies, so does his protected hero, but if his lord dies, Nàr becomes overwhelmed by grief and cannot be controlled for thirty seconds \n Left-click on the desired hero"
 END
 
 CONTROLBAR:NarRettungssprung
@@ -116014,7 +116022,7 @@ CONTROLBAR:NarRettungssprung
 END
 
 CONTROLBAR:ToolTipNarRettungssprung
-"Requires: Level 5 \n N?r rushes through the enemy ranks in order to help his friends \n N?r jumps to the position of the selected hero, hurling all enemies that attack him aside and heals the hero completely \n Left-click on the desired hero"
+"Requires: Level 5 \n Nàr rushes through the enemy ranks in order to help his friends \n Nàr jumps to the position of the selected hero, hurling all enemies that attack him aside and heals the hero completely \n Left-click on the desired hero"
 END
 
 CONTROLBAR:SpecialAbilityNarRacheschwur
@@ -116022,7 +116030,7 @@ CONTROLBAR:SpecialAbilityNarRacheschwur
 END
 
 CONTROLBAR:ToolTipSpecialAbilityNarRacheschwur
-"Requires: Level 7 \n N?r swears bloody revenge to the selected enemy hero or monster in the name of his people \n All allied heroes cause +75% damage when nearby the sworn target \n Left-click on the desired enemy hero monster"
+"Requires: Level 7 \n Nàr swears bloody revenge to the selected enemy hero or monster in the name of his people \n All allied heroes cause +75% damage when nearby the sworn target \n Left-click on the desired enemy hero monster"
 END
 
 CONTROLBAR:NarRachederZwerge
@@ -116030,7 +116038,7 @@ CONTROLBAR:NarRachederZwerge
 END
 
 CONTROLBAR:ToolTipNarRachederZwerge
-"Requires: Level 10 \n Finally, the hour of the revenge has come! \n The Dwarves take revenge on all the terrible enemy monsters and heroes that have been marked by N?r's "Sworn Revenge" \n All enemies affected by "Sworn Revenge" are stunned and lose 50% armor \n Left-click to activate"
+"Requires: Level 10 \n Finally, the hour of the revenge has come! \n The Dwarves take revenge on all the terrible enemy monsters and heroes that have been marked by Nàr's "Sworn Revenge" \n All enemies affected by "Sworn Revenge" are stunned and lose 50% armor \n Left-click to activate"
 END
 
 CONTROLBAR:GloinBollwerkderZwerge
@@ -116136,7 +116144,7 @@ CONTROLBAR:BolgBeherrschungverlieren
 END
 
 CONTROLBAR:TooltipSpecialAbilityUnkontrollierteRaserei2
-"Requires: Level 4 \n Durb?rz falls into rage that can not be stopped \n For 50 seconds, Durb?rz gets higher values, beats wildly and changes to a new Palantir, making him unable to do more civilized capabilities \n Left-click to activate"
+"Requires: Level 4 \n Durbûrz falls into rage that can not be stopped \n For 50 seconds, Durbûrz gets higher values, beats wildly and changes to a new Palantir, making him unable to do more civilized capabilities \n Left-click to activate"
 END
 
 CONTROLBAR:BolgChaos
@@ -116144,7 +116152,7 @@ CONTROLBAR:BolgChaos
 END
 
 CONTROLBAR:ToolTipBolgChaos
-"All units in Durb?rz's area briefly recognize that Durb?rz currently doesn't value discipline and shall also expire in frenzy \n All units around Durb?rz gain +75% damage and move 25% faster, but lose 25% Armor \nPassive ability"
+"All units in Durbûrz's area briefly recognize that Durbûrz currently doesn't value discipline and shall also expire in frenzy \n All units around Durbûrz gain +75% damage and move 25% faster, but lose 25% Armor \nPassive ability"
 END
 
 CONTROLBAR:BolgWahnsinn
@@ -116152,7 +116160,7 @@ CONTROLBAR:BolgWahnsinn
 END
 
 CONTROLBAR:ToolTipBolgWahnsinn
-"Durb?rz completely loses his mind and gets lost in his rage \n Enemy units fly in fear and lose 25% armor and damage \n Left-click to activate"
+"Durbûrz completely loses his mind and gets lost in his rage \n Enemy units fly in fear and lose 25% armor and damage \n Left-click to activate"
 END
 
 CONTROLBAR:BolgGemetzel
@@ -116160,7 +116168,7 @@ CONTROLBAR:BolgGemetzel
 END
 
 CONTROLBAR:ToolTipBolgGemetzel
-"Durb?rz and all units around him are falling into a terrible bloodlust and organize an utter carnage \n Enemies near Durb?rz lose 50% armor, while the loss for goblins that are near Durb?rz is doubled \n Left-click to activate"
+"Durbûrz and all units around him are falling into a terrible bloodlust and organize an utter carnage \n Enemies near Durbûrz lose 50% armor, while the loss for goblins that are near Durbûrz is doubled \n Left-click to activate"
 END
 
 CONTROLBAR:BolgTodeswahn
@@ -116168,7 +116176,7 @@ CONTROLBAR:BolgTodeswahn
 END
 
 CONTROLBAR:ToolTipBolgTodeswahn
-"Requires: Durb?rz was crowned Ruler of the Misty Mountains \n Durb?rz is lost in his rage and madness, letting it devour him \n He now does massive damage and is invulnerable \n He can not, however, be controlled and dies after some time \n Left-click to activate"
+"Requires: Durbûrz was crowned Ruler of the Misty Mountains \n Durbûrz is lost in his rage and madness, letting it devour him \n He now does massive damage and is invulnerable \n He can not, however, be controlled and dies after some time \n Left-click to activate"
 END
 
 CONTROLBAR:TogglePalantirBolg1
@@ -116176,7 +116184,7 @@ CONTROLBAR:TogglePalantirBolg1
 END
 
 CONTROLBAR:ToolTipTogglePalantirBolg1
-"Durb?rz leads the armies of the Misty Mountains with an iron fist in the war against the Free Peoples \n Switches the Palantir"
+"Durbûrz leads the armies of the Misty Mountains with an iron fist in the war against the Free Peoples \n Switches the Palantir"
 END
 
 CONTROLBAR:TogglePalantirBolg2
@@ -116184,7 +116192,7 @@ CONTROLBAR:TogglePalantirBolg2
 END
 
 CONTROLBAR:ToolTipTogglePalantirBolg2
-"Durb?rz leads the trolls and orcs of Gundabad in the battle \n Switches the Palantir"
+"Durbûrz leads the trolls and orcs of Gundabad in the battle \n Switches the Palantir"
 END
 
 CONTROLBAR:GroßorkUrteilsprechen
@@ -116192,7 +116200,7 @@ CONTROLBAR:GroßorkUrteilsprechen
 END
 
 CONTROLBAR:ToolTipGroßorkUrteilsprechen
-"Durb?rz can exercise his newfound power in one of 3 possible ways \n\n Option 1: Durb?rz condemns his enemies to a cruel death or lifelong bondage \n Enemies who get to listen to his threats fall into panic, causing them to lose 50% damage and armor and gain slower experience \n \n Option 2: Bolg drives his warriors under strict discipline in the fight \n Allied Orcs, Uruks and Warg Riders get +50% armor and cause 50% more damage \n \n Option 3: Bolg drives the slaves with an iron fist \n Slaves in the target area briefly move faster \n Left-click on the icon, then click the desired destination area"
+"Durbûrz can exercise his newfound power in one of 3 possible ways \n\n Option 1: Durbûrz condemns his enemies to a cruel death or lifelong bondage \n Enemies who get to listen to his threats fall into panic, causing them to lose 50% damage and armor and gain slower experience \n \n Option 2: Bolg drives his warriors under strict discipline in the fight \n Allied Orcs, Uruks and Warg Riders get +50% armor and cause 50% more damage \n \n Option 3: Bolg drives the slaves with an iron fist \n Slaves in the target area briefly move faster \n Left-click on the icon, then click the desired destination area"
 END
 
 CONTROLBAR:TogglePalantirKankra1
@@ -116392,7 +116400,7 @@ CONTROLBAR:ToggleAzogBolg
 END
 
 CONTROLBAR:ToolTipToggleAzogBolg
-"Requires: Durb?rz is crowned Ruler of the Misty Mountains \n Azog has returned and leads the Orcs again in the war against the Dwarves and their allies \n Azog forms a strict regimen among the Orcs that are subject to Durb?rz, providing an organized army from creatures of the Misty Mountains to take revenge on the dwarves \n Azog now weakens hostile Dwarves near him and is perfect at quickly tearing buildings down \n In addition, he gains access to new skills \n Left-click to activate"
+"Requires: Durbûrz is crowned Ruler of the Misty Mountains \n Azog has returned and leads the Orcs again in the war against the Dwarves and their allies \n Azog forms a strict regimen among the Orcs that are subject to Durbûrz, providing an organized army from creatures of the Misty Mountains to take revenge on the dwarves \n Azog now weakens hostile Dwarves near him and is perfect at quickly tearing buildings down \n In addition, he gains access to new skills \n Left-click to activate"
 END
 
 CONTROLBAR:ToggleAzogGroßork
@@ -117322,7 +117330,7 @@ CONTROLBAR:ToolTipMadrilVerteidigungIthiliens_Mapspecial
 END
 
 CONTROLBAR:DamrodMannerHennethAnnuns
-"Men of Henneth Ann?n"
+"Men of Henneth Annûn"
 END
 
 CONTROLBAR:ToolTipDamrodMannerHennethAnnuns
@@ -118210,7 +118218,7 @@ CONTROLBAR:SharkuBlutdurstderBestie
 END
 
 CONTROLBAR:ToolTipSharkuBlutdurstderBestie
-"Requires: Level 4 \n Shark? can briefly give free rein to his Warg and let him satiate his bloodthirst \n His pet pounces on the selected opponent and deals massive damage \n Can only be activated when enemies are in the target area \n Left-click on the desired target area"
+"Requires: Level 4 \n Sharkû can briefly give free rein to his Warg and let him satiate his bloodthirst \n His pet pounces on the selected opponent and deals massive damage \n Can only be activated when enemies are in the target area \n Left-click on the desired target area"
 END
 
 CONTROLBAR:Zuchtmeister
@@ -118218,7 +118226,7 @@ CONTROLBAR:Zuchtmeister
 END
 
 CONTROLBAR:ToolTipToggleZuchtmeister
-"Requires: "In the Service of the White Hand" was cast on Shark? \n Saruman commands Shark? to breed more terrible beasts in order to teach the free peoples fear \n As long as Shark? in this mode, Warg Riders can be trained faster and Shark? can use his "Tamer of Beasts," "Master of the Beasts," and "The Indomitable" abilities \n Left-click to activate"
+"Requires: "In the Service of the White Hand" was cast on Sharkû \n Saruman commands Sharkû to breed more terrible beasts in order to teach the free peoples fear \n As long as Sharkû in this mode, Warg Riders can be trained faster and Sharkû can use his "Tamer of Beasts," "Master of the Beasts," and "The Indomitable" abilities \n Left-click to activate"
 END
 
 CONTROLBAR:SharkuZuchtmeister
@@ -118234,7 +118242,7 @@ CONTROLBAR:SharkuMeisterderBestien
 END
 
 CONTROLBAR:ToolTipSharkuMeisterderBestien
-"Requires: Level 5 \n Under the guidance of the Breeding Champion, Shark? has taught the Orcs how to deal with the murderous Wargs when mastering the art of mounted archery \n The selected warg pit can train a maximum of 3 Warg Rider Archers for 30 seconds \n Left-click on the desired warg pit"
+"Requires: Level 5 \n Under the guidance of the Breeding Champion, Sharkû has taught the Orcs how to deal with the murderous Wargs when mastering the art of mounted archery \n The selected warg pit can train a maximum of 3 Warg Rider Archers for 30 seconds \n Left-click on the desired warg pit"
 END
 
 CONTROLBAR:Hetzjagd
@@ -118242,7 +118250,7 @@ CONTROLBAR:Hetzjagd
 END
 
 CONTROLBAR:ToolTipToggleHetzjagd
-"Requires: "In the Service of the White Hand" was cast on Shark? \n Saruman commands Shark? to lead his Warg Riders with the hunting on the slow infantry of the enemy \n Shark?'s leadership improves, and he can now the skills "Shark?'s Lies", "Man-eater" and "Rampage" \n Left-click to activate"
+"Requires: "In the Service of the White Hand" was cast on Sharkû \n Saruman commands Sharkû to lead his Warg Riders with the hunting on the slow infantry of the enemy \n Sharkû's leadership improves, and he can now the skills "Sharkû's Lies", "Man-eater" and "Rampage" \n Left-click to activate"
 END
 
 CONTROLBAR:MauhurFleisch_neu
@@ -118278,7 +118286,7 @@ CONTROLBAR:ToolTipBuildIsengardEliteFighter_Submod
 END
 
 CONTROLBAR:AuftragausLugburz
-"Order from Lugb?rz"
+"Order from Lugbûrz"
 END
 
 CONTROLBAR:ToolTipAuftragausLugburz
@@ -118310,7 +118318,7 @@ TOOLTIP:GrishnakhSchrecklicheGier
 END
 
 CONTROLBAR:ToolTipUpgrade_GrishnakhSchrecklicheGier
-"Grishnákh's greed for the hobbits' blood and for the One Ring gets strengthened \n The passive ability "Order from Lugb?rz" becomes the ability "Dreadful Power""
+"Grishnákh's greed for the hobbits' blood and for the One Ring gets strengthened \n The passive ability "Order from Lugbûrz" becomes the ability "Dreadful Power""
 END
 
 CONTROLBAR:GrishnakEntsetzlicheKraft
@@ -118984,11 +118992,11 @@ CONTROLBAR:BaradDurDunkleMacht
 END
 
 CONTROLBAR:ToolTipBaradDurDunkleMacht
-"Requires: Level 3 \n The Dark Ruler has returned in his black shadow, which has once again begun to extend over Middle-earth \n All opponents in his vicinity will be temporarily feared \n The 9 Ringwraiths, which were previously only a shadow of their former self, begin to grow with his terror and black magic to unfathomable levels \n All Nazg?l in a large radius for 30 seconds have their Rings of Power enhanced by the Shadow, allowing them to unleashed the most horrifying of magic attacks\n At Level 5:\n The radius of the power is doubled and empowers the rings for 45 seconds \n At Level 7:\n The radius of the power increases once more and empowers for 60 seconds\n At Level 10:\n The Nazg?l's feel the power of Sauron flow through their rings anywhere on the map for 90 seconds \n Left-click to activate"
+"Requires: Level 3 \n The Dark Ruler has returned in his black shadow, which has once again begun to extend over Middle-earth \n All opponents in his vicinity will be temporarily feared \n The 9 Ringwraiths, which were previously only a shadow of their former self, begin to grow with his terror and black magic to unfathomable levels \n All Nazgûl in a large radius for 30 seconds have their Rings of Power enhanced by the Shadow, allowing them to unleashed the most horrifying of magic attacks\n At Level 5:\n The radius of the power is doubled and empowers the rings for 45 seconds \n At Level 7:\n The radius of the power increases once more and empowers for 60 seconds\n At Level 10:\n The Nazgûl's feel the power of Sauron flow through their rings anywhere on the map for 90 seconds \n Left-click to activate"
 END
 
 CONTROLBAR:ToolTipBaradDurDunkleMacht4
-"The Shadow of Mordor has now embraced the whole earth \n The malice of the Dark Ruler is felt almost everywhere, becoming a tangible reality \n All nearby opponents are struck with fear \n The 9 Ringwraiths, which were previously only a shadow of their former self, begin to grow with his terror and black magic to unfathomable levels \n All Nazg?l on the entire map for 90 seconds have their Rings of Power enhanced by the Shadow, allowing them to unleash the most horrifying of magic attacks\n Left-click to activate"
+"The Shadow of Mordor has now embraced the whole earth \n The malice of the Dark Ruler is felt almost everywhere, becoming a tangible reality \n All nearby opponents are struck with fear \n The 9 Ringwraiths, which were previously only a shadow of their former self, begin to grow with his terror and black magic to unfathomable levels \n All Nazgûl on the entire map for 90 seconds have their Rings of Power enhanced by the Shadow, allowing them to unleash the most horrifying of magic attacks\n Left-click to activate"
 END
 
 CONTROLBAR:TogglePalantirSauron3
@@ -119188,11 +119196,11 @@ CONTROLBAR:ToolTipMollokWachterCirithGorgors
 END
 
 CONTROLBAR:MollokRustkammernUduns
-"Armories of ?dun"
+"Armories of Ûdun"
 END
 
 CONTROLBAR:ToolTipMollokRustkammernUduns
-"Requires: Level 5 \n Mollok receives supplies from the large stockpiles of ?duns and upgrades its trolls for the fight \n All mountain trolls in the target area receive battle armor \n Left-click on the desired target area"
+"Requires: Level 5 \n Mollok receives supplies from the large stockpiles of Ûduns and upgrades its trolls for the fight \n All mountain trolls in the target area receive battle armor \n Left-click on the desired target area"
 END
 
 CONTROLBAR:SchreckenausGorgoroth
@@ -119208,7 +119216,7 @@ CONTROLBAR:ToggleStanceNazgulHoldGround
 END
 
 CONTROLBAR:ToolTipToggleStanceNazgulHoldGround
-"Nazg?l: -25% damage \n A shadow is reaching for the hearts of the defenders of the west \n Opponents in the vicinity of the Nazg?l lose 25% attack and defense \n Each time the Nazg?l strikes, it transmits its Black Breath on opponents within its grasp, causing an additional armor loss of 25%"
+"Nazgûl: -25% damage \n A shadow is reaching for the hearts of the defenders of the west \n Opponents in the vicinity of the Nazgûl lose 25% attack and defense \n Each time the Nazgûl strikes, it transmits its Black Breath on opponents within its grasp, causing an additional armor loss of 25%"
 END
 
 CONTROLBAR:ToggleStanceNazgulStandart
@@ -119216,7 +119224,7 @@ CONTROLBAR:ToggleStanceNazgulStandart
 END
 
 CONTROLBAR:ToolTipToggleStanceNazgulStandart
-"Nazg?l: No disadvantage \n An aura of cold and fear surrounds the most powerful servant of the Dark Ruler \n Opponents in the vicinity of the Nazg?l lose armor and attack ratings \n A bonus effect can be unlocked via the stances, which is released when the Nazg?l uses his blade, thus transferring the terrible disease "Black Breath" to his opponents; however, the stances have a negative impact on the Nazg?l itself"
+"Nazgûl: No disadvantage \n An aura of cold and fear surrounds the most powerful servant of the Dark Ruler \n Opponents in the vicinity of the Nazgûl lose armor and attack ratings \n A bonus effect can be unlocked via the stances, which is released when the Nazgûl uses his blade, thus transferring the terrible disease "Black Breath" to his opponents; however, the stances have a negative impact on the Nazgûl itself"
 END
 
 CONTROLBAR:ToggleStanceNazgulAggressive
@@ -119224,7 +119232,7 @@ CONTROLBAR:ToggleStanceNazgulAggressive
 END
 
 CONTROLBAR:ToolTipToggleStanceNazgulAggressive
-"Nazg?l: -25% Armor \n The icy tapping voices of the Nazg?l assess that, sooner or later, every human, elf or dwarf will die to the Shadow \n Opponents in the vicinity of the Nazg?l lose 25% attack and defense \n Each time the Nazg?l strikes, it transmits its Black Breath on opponents within its grasp, causing an additional armor loss of 25%"
+"Nazgûl: -25% Armor \n The icy tapping voices of the Nazgûl assess that, sooner or later, every human, elf or dwarf will die to the Shadow \n Opponents in the vicinity of the Nazgûl lose 25% attack and defense \n Each time the Nazgûl strikes, it transmits its Black Breath on opponents within its grasp, causing an additional armor loss of 25%"
 END
 
 CONTROLBAR:NazgulMachtdesMorgulturms
@@ -119232,7 +119240,7 @@ CONTROLBAR:NazgulMachtdesMorgulturms
 END
 
 CONTROLBAR:ToolTipNazgulMachtdesMorgulturms
-"Requires: Necromancer Level 5 or with the Silmaril \n The Nazg?l ride into the war in the name of the Black Country, becoming frightful creatures as their master becomes ever more powerful \n The Nazg?l can unleash its darkest power as a Ring Hunter or transform into its horrible and true form \n In each of these mighty shapes, the Nazg?l bring new disaster on the Free Peoples of Middle-earth \n Left-click to enable"
+"Requires: Necromancer Level 5 or with the Silmaril \n The Nazgûl ride into the war in the name of the Black Country, becoming frightful creatures as their master becomes ever more powerful \n The Nazgûl can unleash its darkest power as a Ring Hunter or transform into its horrible and true form \n In each of these mighty shapes, the Nazgûl bring new disaster on the Free Peoples of Middle-earth \n Left-click to enable"
 END
 
 CONTROLBAR:ToggleStanceRingjager1HoldGround
@@ -119244,11 +119252,11 @@ CONTROLBAR:ToggleStanceRingjager1Aggressive
 END
 
 CONTROLBAR:ToolTipToggleStanceRingjager1HoldGround
-"Nazg?l: -25% Damage \n A dark shadow passes over to the enemies of the Nazg?l and paralyzes their thoughts \n Enemy units near the Nazg?l lose 25% armor and attack \n Every time the Nazg?l strikes, it transfers the Black Breath on enemies within, preventing them from ever healing from their wounds"
+"Nazgûl: -25% Damage \n A dark shadow passes over to the enemies of the Nazgûl and paralyzes their thoughts \n Enemy units near the Nazgûl lose 25% armor and attack \n Every time the Nazgûl strikes, it transfers the Black Breath on enemies within, preventing them from ever healing from their wounds"
 END
 
 CONTROLBAR:ToolTipToggleStanceRingjager1Aggressive
-"Nazg?l: -25% Armor \n The 9 go back to the leaders of free nations to show they have no power to defeat the monstrosities of the Shadow \n Enemy units near the Nazg?l lose 25% armor and attack\n Every time the Nazg?l strikes, it transfers the Black Breath on heroes within, causing their spells to temporarily deal significantly less damage"
+"Nazgûl: -25% Armor \n The 9 go back to the leaders of free nations to show they have no power to defeat the monstrosities of the Shadow \n Enemy units near the Nazgûl lose 25% armor and attack\n Every time the Nazgûl strikes, it transfers the Black Breath on heroes within, causing their spells to temporarily deal significantly less damage"
 END
 
 CONTROLBAR:ToggleStanceRingjager2HoldGround
@@ -119256,7 +119264,7 @@ CONTROLBAR:ToggleStanceRingjager2HoldGround
 END
 
 CONTROLBAR:ToolTipToggleStanceRingjager2HoldGround
-"Nazg?l: -25% Damage \n A veil of impenetrable darkness surrounds the Nazg?l, robbing the strength of enemy units \n Enemy units near the Nazg?l lose 25% armor and attack \n Every time the Nazg?l strikes, it transfers the Black Breath on enemies within, stifling their range by 50% \n Effective against archers"
+"Nazgûl: -25% Damage \n A veil of impenetrable darkness surrounds the Nazgûl, robbing the strength of enemy units \n Enemy units near the Nazgûl lose 25% armor and attack \n Every time the Nazgûl strikes, it transfers the Black Breath on enemies within, stifling their range by 50% \n Effective against archers"
 END
 
 CONTROLBAR:ToggleStanceRingjager2Aggressive
@@ -119264,7 +119272,7 @@ CONTROLBAR:ToggleStanceRingjager2Aggressive
 END
 
 CONTROLBAR:ToolTipToggleStanceRingjager2Aggressive
-"Nazg?l: -25% Armor \n The horrific power of the Ring Spirit robs humans and animals of their courage to fight \n Enemy units near the Nazg?l lose 25% armor and attack \n Every time the Nazg?l strikes, it transfers the Black Breath on enemy cavalry within, causing them to slow twice as fast when trampling\n Effective against cavalry"
+"Nazgûl: -25% Armor \n The horrific power of the Ring Spirit robs humans and animals of their courage to fight \n Enemy units near the Nazgûl lose 25% armor and attack \n Every time the Nazgûl strikes, it transfers the Black Breath on enemy cavalry within, causing them to slow twice as fast when trampling\n Effective against cavalry"
 END
 
 CONTROLBAR:NazgulMachtdesEinen
@@ -119272,7 +119280,7 @@ CONTROLBAR:NazgulMachtdesEinen
 END
 
 CONTROLBAR:ToolTipNazgulMachtdesEinen
-"Requires: Level 8 \n The Nazg?l feels the will of his master \n Directed by Sauron, he can stop at nothing more \n His riding and attack speed increase for a short time by 50% and causes significantly increased damage \n Left-click to activate"
+"Requires: Level 8 \n The Nazgûl feels the will of his master \n Directed by Sauron, he can stop at nothing more \n His riding and attack speed increase for a short time by 50% and causes significantly increased damage \n Left-click to activate"
 END
 
 CONTROLBAR:NazgulOrtderVerdammnis
@@ -119280,7 +119288,7 @@ CONTROLBAR:NazgulOrtderVerdammnis
 END
 
 CONTROLBAR:ToolTipNazgulOrtderVerdammnis
-"Requires: Level 8 \n The places where the Nazg?l treads in his invisible form are scarred by a trace of his depravity \n The Nazg?l damns the selected building \n All enemy units that are garrisoned, nearby, or recruited at the selected building forever lose 10% armor and damage \n Left-click on the desired enemy building"
+"Requires: Level 8 \n The places where the Nazgûl treads in his invisible form are scarred by a trace of his depravity \n The Nazgûl damns the selected building \n All enemy units that are garrisoned, nearby, or recruited at the selected building forever lose 10% armor and damage \n Left-click on the desired enemy building"
 END
 
 CONTROLBAR:BotedesUnheils
@@ -119288,7 +119296,7 @@ CONTROLBAR:BotedesUnheils
 END
 
 CONTROLBAR:ToolTipBotedesUnheils
-"Requires: Level 2 \n The presence of the Nazg?l, even if invisible to mortals, awakens a sense of threat in the enemies of Mordor \n Nearby enemies have severely weakened attack and defence \n \n Passive ability"
+"Requires: Level 2 \n The presence of the Nazgûl, even if invisible to mortals, awakens a sense of threat in the enemies of Mordor \n Nearby enemies have severely weakened attack and defence \n \n Passive ability"
 END
 
 CONTROLBAR:NazgulVerhangnisderAltvorderen
@@ -119304,7 +119312,7 @@ CONTROLBAR:GeflugelterSchatten
 END
 
 CONTROLBAR:ToolTipGeflugelterSchatten
-"Requires: Level 2 \n The presence of winged Nazg?l leaves a shadow over the hearts of his opponents, robbing them of the hope and will to live \n Enemy units that are present under the Nazg?l collect slower experience, are 25% slower, and cause 30% less damage \n \n Passive ability"
+"Requires: Level 2 \n The presence of winged Nazgûl leaves a shadow over the hearts of his opponents, robbing them of the hope and will to live \n Enemy units that are present under the Nazgûl collect slower experience, are 25% slower, and cause 30% less damage \n \n Passive ability"
 END
 
 CONTROLBAR:SchwarzerSchatten
@@ -119312,7 +119320,7 @@ CONTROLBAR:SchwarzerSchatten
 END
 
 CONTROLBAR:ToolTipSchwarzerSchatten
-"Requires: Level 8 \n The Nazg?l shows his enemies that he embodies true terror \n All enemy units located under the flying Nazg?l lose 50% armor and can no longer attack him for a short time \n Left-click to activate"
+"Requires: Level 8 \n The Nazgûl shows his enemies that he embodies true terror \n All enemy units located under the flying Nazgûl lose 50% armor and can no longer attack him for a short time \n Left-click to activate"
 END
 
 CONTROLBAR:ToggleStanceDunklerMarschallHoldGround
@@ -119368,11 +119376,11 @@ CONTROLBAR:TogglePalantirKhamul3
 END
 
 CONTROLBAR:ToolTipTogglePalantirNazgul1
-"Requires: The Nazg?l felt the surge of Sauron's "Dark Power" \n Sauron's shadow creeps across the land and touches The Ringwraith's Ring of Power, causing the ring to be filled with unfathomable power anxiously awaiting to be unleashed\n Opens a new submenu where the Nazg?l can choose one of several deadly black magics\n As Sauron grows in strength, the Nazg?l embraces more power to unlock even more ring spells\nLeft-click to enable then reselect to view the spells"
+"Requires: The Nazgûl felt the surge of Sauron's "Dark Power" \n Sauron's shadow creeps across the land and touches The Ringwraith's Ring of Power, causing the ring to be filled with unfathomable power anxiously awaiting to be unleashed\n Opens a new submenu where the Nazgûl can choose one of several deadly black magics\n As Sauron grows in strength, the Nazgûl embraces more power to unlock even more ring spells\nLeft-click to enable then reselect to view the spells"
 END
 
 CONTROLBAR:ToolTipTogglePalantirKhamul3
-"Requires: Kham?l felt the surge of Sauron's "Dark Power" \n Sauron's shadow creeps across the land and touches the Shadow of the East's Ring of Power, causing the ring to be filled with unfathomable power anxiously awaiting to be unleashed\n Opens a new submenu where Kham?l can choose one of several deadly black magics\n As Sauron grows in strength, Kham?l embraces more power to unlock even more ring spells\nLeft-click to enable then reselect to view the spells"
+"Requires: Khamûl felt the surge of Sauron's "Dark Power" \n Sauron's shadow creeps across the land and touches the Shadow of the East's Ring of Power, causing the ring to be filled with unfathomable power anxiously awaiting to be unleashed\n Opens a new submenu where Khamûl can choose one of several deadly black magics\n As Sauron grows in strength, Khamûl embraces more power to unlock even more ring spells\nLeft-click to enable then reselect to view the spells"
 END
 
 CONTROLBAR:NazgulTodeszorn
@@ -119380,7 +119388,7 @@ CONTROLBAR:NazgulTodeszorn
 END
 
 CONTROLBAR:ToolTipNazgulTodeszorn
-"The terrible power of the ring puts aLL nearby units into a horrifying bloodlust \n Every unit around the Nazg?l deal 50% more damage, but lose 50% armor \n Enemy units begin to fight each other \n After a period of 30 seconds, all remaining units are damaged by their own depravity; however, allies will suffer only medium damage\n Left-click to activate"
+"The terrible power of the ring puts aLL nearby units into a horrifying bloodlust \n Every unit around the Nazgûl deal 50% more damage, but lose 50% armor \n Enemy units begin to fight each other \n After a period of 30 seconds, all remaining units are damaged by their own depravity; however, allies will suffer only medium damage\n Left-click to activate"
 END
 
 CONTROLBAR:NazgulKlingedesSchreckens_neu
@@ -119388,7 +119396,7 @@ CONTROLBAR:NazgulKlingedesSchreckens_neu
 END
 
 CONTROLBAR:ToolTipNazgulKlingedesSchreckens_neu
-"The dark power of the ring flows from the Nazg?l onto his sword \n For 90 seconds, one of 3 random devastating magic attacks will follow each attack the Nazg?l leads with the blade\n Option 1: \n Ice of Angmar \n An icy wind emanates from the blade and freezes all enemies within \n Option 2: \n Dark Fire \n Black magic blazes out from the blade, fanning flames that put all enemies within on fire \n Option 3: \n Morgul Magic \n A terrible power flows from the blade, slowing and poisoning all enemies \n While the ability is active, the Nazg?l is much more susceptible to conventional attacks, but is immune to magic, fire, ice, and poison \n Left-click to activate"
+"The dark power of the ring flows from the Nazgûl onto his sword \n For 90 seconds, one of 3 random devastating magic attacks will follow each attack the Nazgûl leads with the blade\n Option 1: \n Ice of Angmar \n An icy wind emanates from the blade and freezes all enemies within \n Option 2: \n Dark Fire \n Black magic blazes out from the blade, fanning flames that put all enemies within on fire \n Option 3: \n Morgul Magic \n A terrible power flows from the blade, slowing and poisoning all enemies \n While the ability is active, the Nazgûl is much more susceptible to conventional attacks, but is immune to magic, fire, ice, and poison \n Left-click to activate"
 END
 
 CONTROLBAR:NazgulSchattenhauch_new
@@ -119396,7 +119404,7 @@ CONTROLBAR:NazgulSchattenhauch_new
 END
 
 CONTROLBAR:ToolTipNazgulSchattenhauch_new
-"The Ring of Power siphons the life and the hope of all enemy units in the area \n Within the next 30 seconds, 3 shadow waves emerge from the ring of the Nazg?l that track down enemy units, slowing them and weaken their armor by 50%\n Each wave of shadow transmits the vitality of the affected units towards the Nazg?l \n This life energy partially heals and increases his maximum number of hit points by 200\n Left click to activate"
+"The Ring of Power siphons the life and the hope of all enemy units in the area \n Within the next 30 seconds, 3 shadow waves emerge from the ring of the Nazgûl that track down enemy units, slowing them and weaken their armor by 50%\n Each wave of shadow transmits the vitality of the affected units towards the Nazgûl \n This life energy partially heals and increases his maximum number of hit points by 200\n Left click to activate"
 END
 
 CONTROLBAR:NazgulMorgulverderbnis
@@ -119404,7 +119412,7 @@ CONTROLBAR:NazgulMorgulverderbnis
 END
 
 CONTROLBAR:ToolTipNazgulMorgulverderbnis
-"The terrible magic of Minas Morgul escapes from the Ring of Power and flares \n For 35 seconds, all enemies near the Nazg?l are greatly poisoned by the horrific Morgul Magic \n Sensing the released corruptive energy, several wights also appear to dispose of the foes of Mordor \n Left-click to activate"
+"The terrible magic of Minas Morgul escapes from the Ring of Power and flares \n For 35 seconds, all enemies near the Nazgûl are greatly poisoned by the horrific Morgul Magic \n Sensing the released corruptive energy, several wights also appear to dispose of the foes of Mordor \n Left-click to activate"
 END
 
 CONTROLBAR:NazgulGorgorothVerderbnis_neu
@@ -119412,7 +119420,7 @@ CONTROLBAR:NazgulGorgorothVerderbnis_neu
 END
 
 CONTROLBAR:ToolTipNazgulGorgorothVerderbnis_neu
-"The Ring of Power uses its corruption in the form of all-consuming flames that rage around the Nazg?l and burn all enemies within \n For a period of 30 seconds, waves of dark fire flow out from the ring and burn enemies that make the mistake of approaching the Nazg?l \n Left-click to activate"
+"The Ring of Power uses its corruption in the form of all-consuming flames that rage around the Nazgûl and burn all enemies within \n For a period of 30 seconds, waves of dark fire flow out from the ring and burn enemies that make the mistake of approaching the Nazgûl \n Left-click to activate"
 END
 
 CONTROLBAR:NazgulSchicksalsschlag
@@ -119432,7 +119440,7 @@ CONTROLBAR:TogglePalantirKhamul4
 END
 
 CONTROLBAR:ToolTipTogglePalantirNazgul2
-"The Nazg?l returns to his normal ability arsenal \n Switches the Palantir"
+"The Nazgûl returns to his normal ability arsenal \n Switches the Palantir"
 END
 
 CONTROLBAR:MassakerOpferstatte
@@ -119468,7 +119476,7 @@ CONTROLBAR:SpecialAbilityStatueAlbtraum
 END
 
 CONTROLBAR:ToolTipSpecialAbilityStatueAlbtraum
-"Requires: Both men and 2 women were sacrificed \n The dark power, which was released by the ritual, is bound to the selected Nazg?l \n The terrible atrocities combined with their reputation creates a power that is even more terrifying \n The passive properties of the selected Nazg?l are strengthened \n Enemy units that have direct contact with him also lose another 25% armor and attack \n Left-click on the desired Nazg?l \n Not applicable to the Black Riders \nOnly one of the 3 abilities can be used"
+"Requires: Both men and 2 women were sacrificed \n The dark power, which was released by the ritual, is bound to the selected Nazgûl \n The terrible atrocities combined with their reputation creates a power that is even more terrifying \n The passive properties of the selected Nazgûl are strengthened \n Enemy units that have direct contact with him also lose another 25% armor and attack \n Left-click on the desired Nazgûl \n Not applicable to the Black Riders \nOnly one of the 3 abilities can be used"
 END
 
 CONTROLBAR:MassakerSchattenwachter
@@ -119496,7 +119504,7 @@ CONTROLBAR:KhamulFlammenholle
 END
 
 CONTROLBAR:TooltipKhamulFlammenholle
-"The Lord of Rh?n brings the power of his ring to destroy his enemies in a hellfire \n Opponents in the target area painfully burned and buildings are set on fire \n Left-click on the desired target area"
+"The Lord of Rhûn brings the power of his ring to destroy his enemies in a hellfire \n Opponents in the target area painfully burned and buildings are set on fire \n Left-click on the desired target area"
 END
 
 CONTROLBAR:KhamulWaldunterderNachtschatten
@@ -119504,7 +119512,7 @@ CONTROLBAR:KhamulWaldunterderNachtschatten
 END
 
 CONTROLBAR:ToolTipKhamulWaldunterderNachtschatten
-"The corruption of the Dark Lord goes through the ring of Kham?l \n The horrific presence of the Shadow of the East spoils the land around him \n A dark forest now stands where the the Nazg?l exerted his ability \n Unspeakable horrors lurk in the dark thickets of the woods, and the trees rot and wither from the poison of the darkness\n Enemy buildings located in this forest are temporarily disabled \n Enemy units who wander into the accursed woods lose 50% speed and cut their visibility in half \n Left-click to activate"
+"The corruption of the Dark Lord goes through the ring of Khamûl \n The horrific presence of the Shadow of the East spoils the land around him \n A dark forest now stands where the the Nazgûl exerted his ability \n Unspeakable horrors lurk in the dark thickets of the woods, and the trees rot and wither from the poison of the darkness\n Enemy buildings located in this forest are temporarily disabled \n Enemy units who wander into the accursed woods lose 50% speed and cut their visibility in half \n Left-click to activate"
 END
 
 CONTROLBAR:TogglePalantirNazgul_Ruckswitch
@@ -119512,11 +119520,11 @@ CONTROLBAR:TogglePalantirNazgul_Ruckswitch
 END
 
 CONTROLBAR:ToolTipTogglePalantirNazgul_Ruckswitch
-"Switches the Palantir back to the Nazg?l's normal abilities"
+"Switches the Palantir back to the Nazgûl's normal abilities"
 END
 
 OBJECT:MordorKhamulSubmod
-"Kham?l"
+"Khamûl"
 END
 
 CONTROLBAR:ToggleStanceKhamulHoldGround
@@ -119524,15 +119532,15 @@ CONTROLBAR:ToggleStanceKhamulHoldGround
 END
 
 CONTROLBAR:ToolTipToggleStanceKhamulHoldGround
-"Kham?l: -25% Damage \n The horrific presence of the Shadow from the East paralyzes even the bravest elves, dwarves and humans in horror \n Enemy buildings in his vacinity suffer permanent damage and enemy units are weakened \n Whenever Kham?l strikes, he transfers the Black Breath upon his enemies, causing an additional 50% loss of speed"
+"Khamûl: -25% Damage \n The horrific presence of the Shadow from the East paralyzes even the bravest elves, dwarves and humans in horror \n Enemy buildings in his vacinity suffer permanent damage and enemy units are weakened \n Whenever Khamûl strikes, he transfers the Black Breath upon his enemies, causing an additional 50% loss of speed"
 END
 
 CONTROLBAR:ToggleStanceKhamulStandart
-"Kham?l's Presence"
+"Khamûl's Presence"
 END
 
 CONTROLBAR:ToolTipToggleStanceKhamulStandart
-"Kham?l: No disadvantage \n Kham?l's mere presence weakens enemies and can rot wood, break bricks, and rust metal \n Enemy buildings in his vacinity suffer permanent damage and enemy units are weakened \n When upon the Winged Shadow, buildings take no damage \n A bonus effect can be unlocked via the stances, which is released when the Kham?l uses his blade, thus transferring the terrible disease "Black Breath" to his opponents; however, the stances have a negative impact on Kham?l himself"
+"Khamûl: No disadvantage \n Khamûl's mere presence weakens enemies and can rot wood, break bricks, and rust metal \n Enemy buildings in his vacinity suffer permanent damage and enemy units are weakened \n When upon the Winged Shadow, buildings take no damage \n A bonus effect can be unlocked via the stances, which is released when the Khamûl uses his blade, thus transferring the terrible disease "Black Breath" to his opponents; however, the stances have a negative impact on Khamûl himself"
 END
 
 CONTROLBAR:ToggleStanceKhamulAggressive
@@ -119540,7 +119548,7 @@ CONTROLBAR:ToggleStanceKhamulAggressive
 END
 
 CONTROLBAR:ToolTipToggleStanceKhamulAggressive
-"Kham?l: -25% Armor \n Kham?l's terrible presence forces his enemies to hide in their pitiful buildings \n Enemy buildings in his vacinity suffer permanent damage and enemy units are weakened \n When Kham?l strikes a building, it is briefly unable to continue any production"
+"Khamûl: -25% Armor \n Khamûl's terrible presence forces his enemies to hide in their pitiful buildings \n Enemy buildings in his vacinity suffer permanent damage and enemy units are weakened \n When Khamûl strikes a building, it is briefly unable to continue any production"
 END
 
 CONTROLBAR:TogglePalantirKhamul1
@@ -119548,7 +119556,7 @@ CONTROLBAR:TogglePalantirKhamul1
 END
 
 CONTROLBAR:ToolTipTogglePalantirKhamul1
-"Kham?l uses the power of the East to devastate his enemies, combining his heritage with Morgul Magic \n Switches the Palantir"
+"Khamûl uses the power of the East to devastate his enemies, combining his heritage with Morgul Magic \n Switches the Palantir"
 END
 
 CONTROLBAR:DrohungdesOstens
@@ -119556,7 +119564,7 @@ CONTROLBAR:DrohungdesOstens
 END
 
 CONTROLBAR:ToolTipDrohungdesOstens
-"Gloomy clouds from the eastern sky come as ominous harbingers of the coming war \n All Mordor heroes breifly gather experience faster \n Kham?l, when owning Isignia of the Lieutenant, is called to lead the eastern forces, granting him additional capabilities \n Can only be activated if "Minas Morgul Unleashed" or "Call of the Black Country" is not active\n Left-click to activate"
+"Gloomy clouds from the eastern sky come as ominous harbingers of the coming war \n All Mordor heroes breifly gather experience faster \n Khamûl, when owning Isignia of the Lieutenant, is called to lead the eastern forces, granting him additional capabilities \n Can only be activated if "Minas Morgul Unleashed" or "Call of the Black Country" is not active\n Left-click to activate"
 END
 
 CONTROLBAR:LichtderTotenStadt
@@ -119612,7 +119620,7 @@ CONTROLBAR:ShagratSchwarzeUruksausBaradDur
 END
 
 CONTROLBAR:ToolTipShagratSchwarzeUruksausBaradDur
-"Requires: "Call of the Black Land" has been activated \n Shagrat is commanding a unit of the most ferocious Black Uruks from Barad D?r\n He and his minions are responsible for securing the pass\n Shortly, Black Uruks swarm from Shagrat's position and search the area\n Shagrat gains +100% armor and double sight while activated, but is slowed by 25%\n Left-click to activate"
+"Requires: "Call of the Black Land" has been activated \n Shagrat is commanding a unit of the most ferocious Black Uruks from Barad Dûr\n He and his minions are responsible for securing the pass\n Shortly, Black Uruks swarm from Shagrat's position and search the area\n Shagrat gains +100% armor and double sight while activated, but is slowed by 25%\n Left-click to activate"
 END
 
 CONTROLBAR:WachtervonCirithUngol
@@ -119652,7 +119660,7 @@ CONTROLBAR:WitchkingLichtderTotenStadt
 END
 
 CONTROLBAR:ToolTipWitchkingLichtderTotenStadt
-"Requires: Level 6 \n The Morgul Prince can shine the light of his terrible cursed city and thereby gives the signal for the attack \n Orcs obtain +50% damage and speed \n Morgul units get +50% armor and double damage \n Nazg?l briefly collect experience faster \n Enemies lose 50% armor and become struck with fear \n Left-click to activate "
+"Requires: Level 6 \n The Morgul Prince can shine the light of his terrible cursed city and thereby gives the signal for the attack \n Orcs obtain +50% damage and speed \n Morgul units get +50% armor and double damage \n Nazgûl briefly collect experience faster \n Enemies lose 50% armor and become struck with fear \n Left-click to activate "
 END
 
 CONTROLBAR:KhamulRufdesOstens
@@ -119660,11 +119668,11 @@ CONTROLBAR:KhamulRufdesOstens
 END
 
 CONTROLBAR:ToolTipKhamulRufdesOstens
-"Requires: Level 10 Necromancer and Kham?l \n Kham?l summons his servants to Mordor to assist in the battle \n Upon activation, it will take only a minute for the army to arrive \n A convoy of Harad or Rhun will arrive near the closest allied Mordor fortress \n Left-click to activate"
+"Requires: Level 10 Necromancer and Khamûl \n Khamûl summons his servants to Mordor to assist in the battle \n Upon activation, it will take only a minute for the army to arrive \n A convoy of Harad or Rhun will arrive near the closest allied Mordor fortress \n Left-click to activate"
 END
 
 CONTROLBAR:ToolTipSchwarzerSchatten_Khamul
-"Requires: Level 8 \n Kham?l staggers all enemies within in fear \n All enemy units beneath Kham?l temporarily lose 50% and can no longer attack \n Left-click to activate"
+"Requires: Level 8 \n Khamûl staggers all enemies within in fear \n All enemy units beneath Khamûl temporarily lose 50% and can no longer attack \n Left-click to activate"
 END
 
 CONTROLBAR:KhamulFluchderSchattenwelt
@@ -119684,7 +119692,7 @@ CONTROLBAR:TogglePalantirHK1
 END
 
 CONTROLBAR:ToolTipTogglePalantirHK1
-"The Witch-king of Angmar is the only one of the Nazg?l who can unleash his magic powers even without Sauron's "Dark Power" \n Switches the Palantir"
+"The Witch-king of Angmar is the only one of the Nazgûl who can unleash his magic powers even without Sauron's "Dark Power" \n Switches the Palantir"
 END
 
 CONTROLBAR:WitchkingHauchderSchattenwelt
@@ -119716,7 +119724,7 @@ CONTROLBAR:ToolTipWitchkingMorgulmacht_neu
 END
 
 CONTROLBAR:ToolTipWitchkingHauchderSchattenwelt
-"Requires Level 8 \n The supreme Nazg?l whispers to the enemies of Mordor Black Speech from the shadows \n For a while, the Witch-king cannot move \n Enemies in a small radius passively receive damage \n Left-click to activate"
+"Requires Level 8 \n The supreme Nazgûl whispers to the enemies of Mordor Black Speech from the shadows \n For a while, the Witch-king cannot move \n Enemies in a small radius passively receive damage \n Left-click to activate"
 END
 
 CONTROLBAR:ToggleStanceWitchkingHoldGround
@@ -119776,7 +119784,7 @@ CONTROLBAR:HKHerrderNeun
 END
 
 CONTROLBAR:ToolTipHKHerrderNeun
-"Requires: Level 9 and the Black Riders are not on the battlefield \n The Witch-king calls his Nazg?l upon their Winged Shadows to wear down the enemy and break the defense \n 5 flying Nazg?l arrive on the battlefield \n Left-click to the desired target area"
+"Requires: Level 9 and the Black Riders are not on the battlefield \n The Witch-king calls his Nazgûl upon their Winged Shadows to wear down the enemy and break the defense \n 5 flying Nazgûl arrive on the battlefield \n Left-click to the desired target area"
 END
 
 // Rohan \\
@@ -119794,7 +119802,7 @@ CONTROLBAR:NumenorischerZauber
 END
 
 CONTROLBAR:ToolTipNumenorischerZauber
-"Requires Level 7 \n Merry attacks a selected enemy with his Númenórean sword \n The powerful magic of the blade adds enormous damage to the selected enemy \n Especially effective against Nazg?l \n Left-click on the target unit"
+"Requires Level 7 \n Merry attacks a selected enemy with his Númenórean sword \n The powerful magic of the blade adds enormous damage to the selected enemy \n Especially effective against Nazgûl \n Left-click on the target unit"
 END
 
 CONTROLBAR:MerrydasFallenkleinerSteine
@@ -120782,7 +120790,7 @@ CONTROLBAR:ThrorReichtumderaltenZwerge
 END
 
 CONTROLBAR:ToolTipThrorReichtumderaltenZwerge
-"Requires: Thr?r's journey was successful \n The riches and technologies of the ancient dwarves of Khazad D?m are a true treasure for the dwarves of Erebor \n The selected mine permanently produces 25% more resources \n Left-click on the desired mineshaft"
+"Requires: Thròr's journey was successful \n The riches and technologies of the ancient dwarves of Khazad Dûm are a true treasure for the dwarves of Erebor \n The selected mine permanently produces 25% more resources \n Left-click on the desired mineshaft"
 END
 
 CONTROLBAR:SpecialAbilityGimliSchlachtruf
@@ -121597,7 +121605,7 @@ CONTROLBAR:AranarthWachterEriadors
 END
 
 CONTROLBAR:ToolTipAranarthWachterEriadors
-"Requires: Level 6 \n Even though Arnor is doomed, the heirs of N?menor do not forget the innocents who are suffering from the war with Angmar \n Aranarth launches a secret special force of Rangers whose sacred duty is to protect the Breelanders, Hobbits and other innocent lives from Angmar's horrors \n \n The Guardians of Eriador are a unit of the most skilled and experienced ranger warriors and possess their own abilities \n Left-click on a passable area"
+"Requires: Level 6 \n Even though Arnor is doomed, the heirs of Nûmenor do not forget the innocents who are suffering from the war with Angmar \n Aranarth launches a secret special force of Rangers whose sacred duty is to protect the Breelanders, Hobbits and other innocent lives from Angmar's horrors \n \n The Guardians of Eriador are a unit of the most skilled and experienced ranger warriors and possess their own abilities \n Left-click on a passable area"
 END
 
 CONTROLBAR:SchutzderUnschuldigen
@@ -122254,7 +122262,7 @@ CONTROLBAR:IdrialRevive
 END
 
 CONTROLBAR:ToolTipConstructLothlorienIdrial
-"Recruit Idrial, handmaiden to Galadriel. \n \n Idrial is one of Galadriel?s most trusted handmaidens and was sent by her to aid Berethor in his quest to Rivendell."
+"Recruit Idrial, handmaiden to Galadriel. \n \n Idrial is one of Galadriel’s most trusted handmaidens and was sent by her to aid Berethor in his quest to Rivendell."
 END
 
 CONTROLBAR:Fluidstrike
@@ -122905,7 +122913,7 @@ Map:MAPMPDwarrowdelf
 "Dwarrowdelf"
 END
 Map:MAPMPDwarrowdelf/Desc
-"Khazad-d?m, also known as Hadhodrond, Casarrondo and Phurunargian, which translates to Dwarrowdelf, latterly known as Moria."
+"Khazad-dûm, also known as Hadhodrond, Casarrondo and Phurunargian, which translates to Dwarrowdelf, latterly known as Moria."
 END
 
 Map:MAPMPEastBight
@@ -123861,7 +123869,7 @@ CONTROLBAR:ToolTipAzogShout
 END
 
 CONTROLBAR:ToolTipArvelegShatterPalantir
-"Requires: Level 10 \n Arveleg shatters the Palantir of Amon S?l on the ground to create a powerful explosion that destroys all units nearby and himself"
+"Requires: Level 10 \n Arveleg shatters the Palantir of Amon Sûl on the ground to create a powerful explosion that destroys all units nearby and himself"
 END
 
 OBJECT:MordorHaradrimBanner
@@ -124417,7 +124425,7 @@ CONTROLBAR:ConstructEreborFurnace
 END
 
 CONTROLBAR:ToolTipConstructEreborFurnace
-"Requires: Expedition to Khazad-d?m \n Mithril Armor and Moria's Mining Skills can be researched at the Furnace \n The Furnace Increases command point limit by 100 \n You can only build one Furnace in the same game"
+"Requires: Expedition to Khazad-dûm \n Mithril Armor and Moria's Mining Skills can be researched at the Furnace \n The Furnace Increases command point limit by 100 \n You can only build one Furnace in the same game"
 END
 
 
@@ -125361,7 +125369,7 @@ CONTROLBAR:LW_ToolTip_IsengardOrcFighterHorde
 END
 
 CONTROLBAR:TooltipSpecialAbilityMorgulFortScreech
-"The horrible screeching of the Nazg?l causes enemy units to flee in terror \n Left-click to activate"
+"The horrible screeching of the Nazgûl causes enemy units to flee in terror \n Left-click to activate"
 END
 
 CONTROLBAR:GirdleofMelian
@@ -125413,11 +125421,11 @@ TOOLTIP:LackLevel3SiegeWorks
 END
 
 TOOLTIP:LackDwarvenHeavyArmorEreborFurnace
-"Requires: Dwarven Heavy Armor and Expedition to Khazad-d?m"
+"Requires: Dwarven Heavy Armor and Expedition to Khazad-dûm"
 END
 
 TOOLTIP:LackDwarvenEreborFurnaceMining
-"Requires: Expedition to Khazad-d?m"
+"Requires: Expedition to Khazad-dûm"
 END
 
 CONTROLBAR:ToggleFormationNoldorAmanArcher
@@ -126041,7 +126049,7 @@ CONTROLBAR:ConstructYazneg
 END
 
 CONTROLBAR:ToolTipConstructYazneg
-"Recruit the Leader of Gundabad Warg Riders. \n Yazneg is the brutish and cruel captain of the Hunter Orcs. \n He leads this vicious band of creatures in an effort to track down and kill Thorin?s Company ? and anything else that gets in his way. "
+"Recruit the Leader of Gundabad Warg Riders. \n Yazneg is the brutish and cruel captain of the Hunter Orcs. \n He leads this vicious band of creatures in an effort to track down and kill Thorin’s Company – and anything else that gets in his way. "
 END
 
 CONTROLBAR:LW_ToolTip_Yazneg
@@ -126053,7 +126061,7 @@ OBJECT:Yazneg
 END
 
 CONTROLBAR:YaznegRecruit
-"Recruit the Leader of Gundabad Warg Riders. \n Yazneg is the brutish and cruel captain of the Hunter Orcs. \n He leads this vicious band of creatures in an effort to track down and kill Thorin?s Company ? and anything else that gets in his way. "
+"Recruit the Leader of Gundabad Warg Riders. \n Yazneg is the brutish and cruel captain of the Hunter Orcs. \n He leads this vicious band of creatures in an effort to track down and kill Thorin’s Company – and anything else that gets in his way. "
 END
 
 CONTROLBAR:YaznegRevive
@@ -126162,7 +126170,7 @@ CONTROLBAR:ToolTipBuildFili
 END
 
 CONTROLBAR:DwarvenFiliRecruit
-"Recruit the Crown Prince of Erebor \n \n 'We?ll be right behind you! If you run into trouble, hoot twice like a barn owl, once like a brown owl.'"
+"Recruit the Crown Prince of Erebor \n \n 'We’ll be right behind you! If you run into trouble, hoot twice like a barn owl, once like a brown owl.'"
 END
 
 CONTROLBAR:DwarvenFiliRevive
@@ -126604,4 +126612,3 @@ END
 CONTROLBAR:ToolTipBuildArnorDunedainRangerModInn
 "Regular Archer \n Strong at Ranged"
 END
-
