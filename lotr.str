@@ -1,19 +1,19 @@
 //Global//
 //Structures
 CONTROLBAR:EconomicStructure
-"Economic Structure. \n Generates resources based on the available terrain. \n Adds 25 to the command point total. \n You can control a maximum of 20 of this type of structure at the same time."
+"Batiment Economique. \n Génère des ressources selon la qualité du terrain. \n Ajoute 25 aux points de commandements total. \n Vous ne pouvez avoir que 20 structures de ce type en même temps."
 END
 
 CONTROLBAR:EconomicStructureR
-"Economic Structure. \n Recruits Peasants & generates resources based on the available terrain. \n Adds 25 to the command point total. \n You can control a maximum of 20 of this type of structure at the same time."
+"Batiment Economique. \n Permet de recruter des paysans et génère des ressources selon la qualité du terrain. \n Ajoute 25 aux points de commandements total. \n Vous ne pouvez avoir que 20 structures de ce type en même temps."
 END
 
 CONTROLBAR:SentryTower
-"Sentry Tower. Will shoot at nearby enemies. Can be garissoned with archers for additional fire power. The damage dealt can be improved with a faction specific upgrade. \n You cannot control more than 10 of these structures at a time."
+"Tour de guet. Tirera les ennemies proches . Peut abriter des garnisons d'archers pour avoir une meilleurs puissance de feu. The damage dealt can be improved with a faction specific upgrade. \n You cannot control more than 10 of these structures at a time."
 END
 
 CONTROLBAR:ConstructSentryTower
-"Build a Defensive &Tower."
+"Construit une tour défensive."
 END
 
 //Sub-Economic
@@ -22,44 +22,44 @@ CONTROLBAR:ConstructIsengardMineshaft
 END
 
 CONTROLBAR:ConstructImladrisFarm
-"Construct a Fa&rm."
+"Construit une ferme."
 END
 
 CONTROLBAR:ConstructRohanFarm
-"Construct a Fa&rm."
+"Construit une ferme."
 END
 
 CONTROLBAR:ConstructMordorSlaughter
-"Construct a Slaughte&rhouse."
+"onstruit un abattoir."
 END
 
 CONTROLBAR:ConstructGondorArnorFarm
-"Construct a Fa&rm."
+"Construit une ferme."
 END
 
 CONTROLBAR:ConstructGoblinTunnel
-"Construct a Goblin &Tunnel."
+"Construit un tunnel de Gobelins."
 END
 
 CONTROLBAR:ConstructDwarvenMineShaft
-"Construct a Mineshaf&t."
+"Construit une mine."
 END
 
 CONTROLBAR:ConstructMallornTree
-"Construct a Mallo&rn Tree."
+"Construit un Mallorn."
 END
 
 CONTROLBAR:ConstructAngmarMill
-"Construct a &Mill."
+"Construit un moulin."
 END
 
 //Units
 CONTROLBAR:BatteringRam
-"Battering Ram. Effective against Structures. \n You cannot control more than 8 Battering Rams at a time."
+"Bélier. efficace contre les batiments. \n Vous ne pouvez pas contrôler plus de 8 bélier en même temps."
 END
 
 CONTROLBAR:Catapult
-"Catapult. Effective against Structures and Units. \n You cannot control more than 6 Catapults at a time."
+"Catapulte. Efficace contre les batiments et les unitées. \n Vous ne pouvez pas contrôler plus de 6 catapultes en même temps."
 END
 
 //Global//
@@ -70,15 +70,15 @@ END
 
 //System//
 OBJECT:TheSilmaril
-"The Silmaril."
+"Le Silmaril."
 END
 
 OBJECT:TheSilmarilDescription
-"If the Silmaril is not collected after a period of time \n Maglor will return to claim it. \n The Silmarils were sanctified by Varda, \n thus the units carrying it will suffer major debuffs."
+"If the Silmaril is not collected after a period of time \n Maglor reviendra le prendre. \n The Silmarils were sanctified by Varda, \n thus the units carrying it will suffer major debuffs."
 END
 
 OBJECT:MaglorShadow
-"Maglor the Cursed"
+"Maglor le Maudit"
 END
 //System//
 
@@ -89,11 +89,11 @@ END
 //Lothlorien//
 //Structures
 OBJECT:LorienGarden
-"Lorien Garden"
+"Jardin de la Lorien"
 END
 
 OBJECT:LorienGardenDescription
-"Military Support Structure \n Reduces the cost of Galadhrim Warriors by 10% \n Increases command point limit by 100"
+"Structure de support militaire \n Réduit le coût des soldats des Gladhrimes de 10% \n Augmente de 100 la limite de points de commandements"
 END
 
 CONTROLBAR:ConstructLorienGarden
@@ -101,17 +101,17 @@ CONTROLBAR:ConstructLorienGarden
 END
 
 CONTROLBAR:ToolTipLorienGarden
-"Reduces the cost of Galadhrim Warriors by 10% \n Increases command point limit by 100 \n You can only build one Garden in the same game"
+"Reduces the cost of Galadhrim Warriors by 10% \n Augmente de 100 la limite de points de commandements \n Vous ne pouvez construire qu'un seul jardin dans la même partie"
 END
 
 
 //Units
 CONTROLBAR:SpecialAbilityVerteidigerDEterwalds
-"Defenders of Mirkwood"
+"Défenseurs de la Forêt Noire"
 END
 
 CONTROLBAR:ToolTipSpecialAbilityVerteidigerDEterwalds
-"The Palace Guard are the elite defenders of Mirkwood, and can turn enemy momentum against them. \n Any time a Palace Guard is trampled, all other nearby Palace Guard gain +50% armor, +50% damage and slow down any additional enemy trampling 50% faster for 30 seconds"
+"Les gardiens du palais sont l'élite des défenseurs de la Forêt Noire, and can turn enemy momentum against them. \n Any time a Palace Guard is trampled, Tous les autres gardiens du palais gagnent 50% d'armure, +50% damage and slow down any additional enemy trampling 50% faster for 30 seconds"
 END
 
 //Heroes
