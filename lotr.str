@@ -1,15 +1,15 @@
 //Global//
 //Structures
 CONTROLBAR:EconomicStructure
-"Batiment Economique. \n Génère des ressources selon la qualité du terrain. \n Ajoute 25 aux points de commandements total. \n Vous ne pouvez avoir que 20 structures de ce type en même temps."
+"Batiment Economique. \n Génère des ressources selon le terrain disponible. \n Ajoute 25 aux points de commandements total. \n Vous ne pouvez avoir que 20 structures de ce type en même temps."
 END
 
 CONTROLBAR:EconomicStructureR
-"Batiment Economique. \n Permet de recruter des paysans et génère des ressources selon la qualité du terrain. \n Ajoute 25 aux points de commandements total. \n Vous ne pouvez avoir que 20 structures de ce type en même temps."
+"Batiment Economique. \n Permet de recruter des paysans et génère des ressources selon le terrain disponible. \n Ajoute 25 aux points de commandements total. \n Vous ne pouvez avoir que 20 structures de ce type en même temps."
 END
 
 CONTROLBAR:SentryTower
-"Tour de guet. Tirera les ennemies proches . Peut abriter des garnisons d'archers pour avoir une meilleurs puissance de feu. The damage dealt can be improved with a faction specific upgrade. \n You cannot control more than 10 of these structures at a time."
+"Tour de guet. Tirera les ennemies proches . Peut abriter des garnisons d'archers pour avoir une meilleurs puissance de feu. Les dégâts infligés peuvent être augmenté avec une amélioration spécifique à la faction. \n Vous ne pouvez pas avoir plus de 10 batiments de ce types en même temps."
 END
 
 CONTROLBAR:ConstructSentryTower
@@ -74,7 +74,7 @@ OBJECT:TheSilmaril
 END
 
 OBJECT:TheSilmarilDescription
-"If the Silmaril is not collected after a period of time \n Maglor reviendra le prendre. \n The Silmarils were sanctified by Varda, \n thus the units carrying it will suffer major debuffs."
+"Si le Silmaril n'est pas collecté après une certaine période \n Maglor reviendra le prendre. \n The Silmarils were sanctified by Varda, \n thus the units carrying it will suffer major debuffs."
 END
 
 OBJECT:MaglorShadow
@@ -93,15 +93,15 @@ OBJECT:LorienGarden
 END
 
 OBJECT:LorienGardenDescription
-"Structure de support militaire \n Réduit le coût des soldats des Gladhrimes de 10% \n Augmente de 100 la limite de points de commandements"
+"Structure de support militaire \n Réduit le coût des soldats des galadhrim de 10% \n Augmente de 100 la limite de points de commandements"
 END
 
 CONTROLBAR:ConstructLorienGarden
-"Build Lorien &Garden"
+"Construit un jardin de la Lorien"
 END
 
 CONTROLBAR:ToolTipLorienGarden
-"Reduces the cost of Galadhrim Warriors by 10% \n Augmente de 100 la limite de points de commandements \n Vous ne pouvez construire qu'un seul jardin dans la même partie"
+"Réduit le coût des soldats des galadhrim de 10% \n Augmente de 100 la limite de points de commandements \n Vous ne pouvez construire qu'un seul jardin dans la même partie"
 END
 
 
@@ -111,16 +111,16 @@ CONTROLBAR:SpecialAbilityVerteidigerDEterwalds
 END
 
 CONTROLBAR:ToolTipSpecialAbilityVerteidigerDEterwalds
-"Les gardiens du palais sont l'élite des défenseurs de la Forêt Noire, and can turn enemy momentum against them. \n Any time a Palace Guard is trampled, Tous les autres gardiens du palais gagnent 50% d'armure, +50% damage and slow down any additional enemy trampling 50% faster for 30 seconds"
+"Les gardiens du palais sont l'élite des défenseurs de la Forêt Noire, et peuvent retourner la charge des ennemis contre eux. \n Any time a Palace Guard is trampled, Tous les autres gardiens du palais gagnent 50% d'armure, +50% damage and slow down any additional enemy trampling 50% faster for 30 seconds"
 END
 
 //Heroes
 CONTROLBAR:TaurielAmorUpgrade
-"Daughter of Black Forest"
+"Fille de la Forêt Noire"
 END
 
 CONTROLBAR:ToolTipTaurielAmorUpgrade
-"Requires: Level 5 \n Tauriel gains greater armor \n Passive ability"
+"Requière le niveau 5 \n Tauriel gagne une meilleur armure \n Capacité passive"
 END
 
 //Systems
@@ -133,15 +133,15 @@ CONTROLBAR:LeadershipMallornSprouts
 END
 
 CONTROLBAR:ToolTipLeadershipMallornSprouts
-"+25% resources from Mallorn trees \n Passive Ability"
+"Les Mallhorns produisent 25% de ressources en plus  \n Capacité passive"
 END
 
 CONTROLBAR:LeadershipDiscountUpgrades
-"Mallorn Upgrades"
+"Amélioration pour les Mallhorns"
 END
 
 CONTROLBAR:ToolTipLeadershipDiscountUpgrades
-"Requires: Level 3 Lothlorien Garden \n Upgrades are 25% cheaper \n Passive Ability"
+"Requière: le jardin de la Lothlorien au niveau 3\n Les améliorations sont 25% moins chères \n Capacité passive"
 END
 
 //Spellbook
@@ -167,19 +167,19 @@ END
 
 //Mengoroth
 CONTROLBAR:ToolTipConstructMenegrothFortress_wotr
-"Military Structure \n Trains Sindar Elves from the forest of Belerian \n Gives gifts to Heroes and Units and provides various bonuses \n You can only build 1 Fortress in the same game"
+"Batiment de production militaire \n Trains Sindar Elves from the forest of Belerian \n Gives gifts to Heroes and Units and provides various bonuses \n You can only build 1 Fortress in the same game"
 END
 
 CONTROLBAR:MenegrothFortressLevel4
-"&Upgrade Fortress Level 4"
+"Améliore la forteresse au niveau 4"
 END
 
 CONTROLBAR:MenegrothFortressLevel5
-"&Upgrade Fortress Level 5"
+"Améliore la forteresse au niveau 5"
 END
 
 CONTROLBAR:ToolTipMenegrothFortressLevel4
-"+30% Training Speed \n Increases hit points of the Fortress \n Enables the Mystic Fountains Passive"
+"entrainement des soldats 30% plus rapide \n Increases hit points of the Fortress \n Enables the Mystic Fountains Passive"
 END
 
 CONTROLBAR:ToolTipMenegrothFortressLevel5
@@ -195,11 +195,11 @@ CONTROLBAR:SpecialAbilityElrondYilyaTornado
 END
 
 CONTROLBAR:ToolTipSpecialAbilityElrondYilyaTornado
-"Requires: Level 10 \n Elrond uses his Elven Ring of Air, Vilya, to summon a raging whirlwind around himself, which will heavily damage surrounding enemy units while knocking them down and drawing them towards Elrond. \n Left click to activate"
+"Requière: niveau 10 \n Elrond utilise l'anneau elfe de l'air, Vilya, to summon a raging whirlwind around himself, which will heavily damage surrounding enemy units while knocking them down and drawing them towards Elrond. \n Clic gauche pour activer"
 END
 
 CONTROLBAR:ToolTipConstructFormenosFortress_wotr
-"Military Structure \n Trains Noldor from Formenos \n Gives gifts to Heroes and Units and provides various bonuses \n You can only build 1 Fortress in the same game"
+"Batiment de production militaire \n Trains Noldor from Formenos \n Gives gifts to Heroes and Units and provides various bonuses \n Vous ne pouvez construire qu'une seule forteresse de Formenos dans 1 seule partie"
 END
 //Imladris//
 
@@ -214,7 +214,7 @@ CONTROLBAR:LindonSpellInfobox
 END
 
 CONTROLBAR:ToolTipLindonSpellInfobox
-"Requires: Army of the Past Ages \n Trains the bodyguards of Gil-Galad \n and ahe last King of the Noldor in Middle Earth"
+"Requière: Armée de l'Age passé \n Entraine les gardes du corps de Gil-Galad \n et le dernier Roi des Noldors de la Terre du milieu"
 END
 //Arnor//
 
@@ -225,7 +225,7 @@ END
 
 //Rohan//
 CONTROLBAR:SpellBookRadagastRohan
-"Radagast the Brown"
+"Radagast le brun"
 END
 
 CONTROLBAR:TooltipSpellBookRadagastRohan
@@ -233,15 +233,15 @@ CONTROLBAR:TooltipSpellBookRadagastRohan
 END
 
 CONTROLBAR:RohanFarmInfobox
-"To Arms"
+"Aux armes"
 END
 
 CONTROLBAR:ToolTipRohanFarmInfobox
-"Rohan peasants are called to arms \n Every time a horde of peasants is trained, \n the Farm gains experience points"
+"Les paysans du Rohan sont appelés au combat \n Every time a horde of peasants is trained, \n the Farm gains experience points"
 END
 
 CONTROLBAR:SpellBookSteppenRohans
-"Steppe of Rohan"
+"Stepe du rohan"
 END
 
 CONTROLBAR:TooltipSpellBookSteppenRohans
@@ -257,7 +257,7 @@ CONTROLBAR:TooltipRohanHauptmannMount
 END
 
 CONTROLBAR:InfoBoxRohanHauptmann
-"Rohan Captain"
+"Capitain du Rohan"
 END
 
 CONTROLBAR:ToolTipInfoBoxRohanHauptmann
@@ -269,7 +269,7 @@ END
 //Dwarves//
 //Structures
 OBJECT:DwarvenSummonedCitadelDescription
-"Military Structure \n Trains Dwarves of Aglarond \n You can only summon one Citadel in the same game"
+"Batiment de production militaire \n Entraine des nains d'Aglarond \n Vous ne pouvez construire qu'une seule citadel dans la même partie"
 END
 
 CONTROLBAR:ToolTipSelectUnitsAglarond
@@ -288,7 +288,7 @@ CONTROLBAR:DainNewLeadershipMithrilMail
 END
 
 CONTROLBAR:ToolTipDainNewLeadershipMithrilMail
-"Passive Ability \n King Dain recieves his new armor, the armor increases his overall defence to all forms of damage"
+"Capacité passive \n Le roi Daïn reçoit sa nouvelle armure, the armor increases his overall defence to all forms of damage"
 END
 
 
@@ -302,11 +302,11 @@ END
 
 
 CONTROLBAR:SpellBookMordorEvilMenArmy
-"Evil Men army"
+"Evil Men Army"
 END
 
 CONTROLBAR:TooltipSpellBookMordorEvilMenArmy
-"Temporarly summon the Prince of the Haradrim, also known as the Serpent Lord, Suladan, a Mahud Chieftain on his war Mumak, war Mumaks and several hordes of haradrim, Easterlings and Corsairs of Umbar. \n Left click on the target area"
+"Invoque temporairement le Prince des haradrim, aussi connu sous le nom de seigneur serpent, Suladan, a Mahud Chieftain on his war Mumak, war Mumaks and several hordes of haradrim, Easterlings and Corsairs of Umbar. \n Left click on the target area"
 END
 
 
@@ -106434,7 +106434,7 @@ CONTROLBAR:ConstructUmbarCorsairSentryTowerExpansion
 END
 
 CONTROLBAR:ToolTipConstructUmbarCorsairSentryTowerExpansion
-"Defensive Arrow Tower that fires at enemies"
+"Une tour de défense qui attaque les ennemis proches"
 END
 
 OBJECT:UmbarCorsairDormitoryExpansion
@@ -106458,35 +106458,35 @@ CONTROLBAR:ToolTipUmbarFortLighthouseexpanStartFire
 END
 
 OBJECT:UmbarTavern
-"Tavern"
+"Taverne"
 END
 
 OBJECT:UmbarTavernDescription
-"Trains Corsairs of Umbar"
+"Entrainer des corsairs d'Umbar"
 End
 
 CONTROLBAR:ConstructUmbarTavern
-"Build Ta&vern"
+"construire une taverne"
 END
 
 CONTROLBAR:ToolTipUmbarTavern
-"Trains Corsairs of Umbar"
+"Entrainer des corsairs d'Umbar"
 END
 
 OBJECT:UmbarCorsairarcher
-"Corsair archer"
+"Archers corsairs"
 END
 
 OBJECT:HordeUmbarCorsairarcher
-"Corsair archers"
+"Corsairs archers"
 END
 
 CONTROLBAR:LW_Unit_UmbarCorsairarcherHorde
-"Corsair archers from Umbar"
+"Archers corsairs d'Umbar"
 END
 
 CONTROLBAR:LW_ToolTip_UmbarCorsairarcherHorde
-"Ranged Infantry \n Strong vs: Ranged attacks"
+"Infanterie régulière \n Strong vs: Ranged attacks"
 END
 
 CONTROLBAR:ConstructUmbarCorsairarcherHorde
@@ -106494,7 +106494,7 @@ CONTROLBAR:ConstructUmbarCorsairarcherHorde
 END
 
 CONTROLBAR:ToolTipBuildUmbarCorsairarcherHorde
-"Ranged Infantry \n Strong vs: Ranged attacks"
+"Infanterie régulière \n Strong vs: Ranged attacks"
 END
 
 OBJECT:UmbarCorsairBallista
@@ -106506,11 +106506,11 @@ CONTROLBAR:ConstructUmbarCorsairBallista
 END
 
 CONTROLBAR:ToolTipBuildUmbarCorsairBallista
-"Strong vs. Structures and Siege Equipment"
+"Fort contre les batiments et les engins de siège"
 END
 
 OBJECT:MirkwoodArcher
-"Mirkwood Archer"
+"Archers de la Forêt Noire"
 END
 
 UPGRADE:Nothing
@@ -106518,13 +106518,13 @@ UPGRADE:Nothing
 END
 
 CONTROLBAR:SelectUpgradesUmbarFortress
-"Upgrades"
+"Améliorations"
 END
 
 CONTROLBAR:ToolTipCommandSelectUpgradesUmbarFortress
-"Purchase upgrades and additional defenses of the fortress"
+"Débloque des améliorations et des défenses additionnel pour la forteresse"
 END
 
 CONTROLBAR:ToolTipBuildArnorDunedainRangerModInn
-"Regular Archer \n Strong at Ranged"
+"Archers réguliers \n forts à distance"
 END
